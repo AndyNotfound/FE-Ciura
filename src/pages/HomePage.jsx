@@ -1,6 +1,6 @@
 function HomePage() {
   return (
-    <h1 className='text-red-800'>Hello World</h1>
+    <h1 className=''>Hello World</h1>
   )
 }
 
