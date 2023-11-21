@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+/* keseleruhan */
+button a {
+  text-decoration: none;
+  color: #000;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* navbar */
+nav {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f5f8fb;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 0 79px;
+  height: 98px;
+}
+.navbar img {
+  width: 102px;
+  height: 54px;
+  border-radius: 10px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 22px;
+}
+.navbar a {
+  text-decoration: none;
+  color: #000;
+}
+.logo {
+  color: #583bb6;
+  font-family: "Sonsie One";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.button-navbar button a {
+  color: #fff;
+}
+.btn-gejala {
+  display: flex;
+  margin-top: 16px;
+}
+.btn-gejala a {
+  border: none;
+  padding: 7px 30px;
+  background-color: #720dee;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/* end navbar */
+
+/* judul page */
+
+.judul-page {
+  padding: 22px 80px;
+  display: flex;
+}
+span a {
+  margin-left: 5px;
+}
+
+/* end judul page */
+
+/* judul anemia */
+
+.judul {
+  text-align: center;
+  margin-top: 70px;
+}
+.judul-anemia {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/* end judul anemia */
+
+/* container */
+p {
+  color: var(--3, #000);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container-left,
+.container-right {
+  padding: 80px 6px;
+}
+.rows {
+  border-top: 1px solid #b8b8b8;
+  margin: 10px 0;
+}
+.container1,
+.container2,
+.container3,
+.container4 {
+  padding: 21px 21px;
+  border-radius: 10px;
+  border: 1px solid #b8b8b8;
+  background: #fff;
+  width: 600px;
+  height: 200px;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+  color: #000;
+}
+.container2 {
+  height: 271px;
+}
+.container3 {
+  height: 128px;
+}
+.container4 {
+  height: 158px;
+}
+.kotak {
+  display: flex;
+  padding: 0 0 50px 40px;
+}
+
+/* end container */
+
+/* START FOOTER */
+.welcome {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.ciura {
+  color: #720dee;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+footer {
+  max-width: 100%;
+  height: 160px;
+  background-color: #ee0d51;
+  padding: 29px 82px;
+}
+.footer-col {
+  width: 15%;
+  padding: 0 3px;
+}
+
+h4 {
+  color: #fff;
+}
+li a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+.footer-col2 li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.row2 {
+  margin-left: 265px;
+}
+.medsos {
+  display: flex;
+}
+.medsos li {
+  padding: 10px 10px;
+}
+.medsos li a {
+  font-size: 15px;
+}
+.dwnld {
+  margin-bottom: 10px;
+  margin-top: -2px;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.download {
+  width: 175px;
+  height: 47px;
+  background-color: #fff;
+  float: left;
+  border-radius: 10px;
+  position: relative;
+  color: #000;
+  cursor: pointer;
+  border: 1px solid white;
+}
+.download .fa-brands {
+  color: #000;
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+}
+.fa-brands {
+  font-size: 30px;
+}
+.fa-apple {
+  font-size: 35px;
+}
+.p1,
+.p2 {
+  position: absolute;
+  left: 45px;
+}
+.p1 {
+  top: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.p2 {
+  top: 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* END FOOTER */

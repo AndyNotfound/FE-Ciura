@@ -1,15 +1,15 @@
 import Footer from "../components/Footer";
 import Hero from "../components/Home/Hero";
-import Navbar from "../components/Navbar";
+import NavbarLogin from "../components/NavbarLogin";
 import Pengertian from "../components/pengertian";
 import Layanankami from "../components/layanankami";
 import Tentangkami from "../components/tentangkami";
 import Artikel from "../components/artikel";
 
-function HomePage() {
+function HomeLogin() {
   return (
     <>
-      <Navbar />
+      <NavbarLogin />
       <Hero />
       <Pengertian />
       <Layanankami />
@@ -20,4 +20,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default HomeLogin;
