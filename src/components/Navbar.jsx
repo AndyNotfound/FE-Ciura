@@ -66,11 +66,11 @@ function Navbar() {
                         <img src="/profil-img.svg" alt="" />
                         :
                         <>
-                            <button onClick={() => navigate("/application")}>
-                                Download App
-                            </button>
                             <button onClick={() => navigate("/login")}>
-                                Login
+                                Masuk
+                            </button>
+                            <button onClick={() => navigate("/signup")}>
+                                Daftar
                             </button>
                         </>
                     }

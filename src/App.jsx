@@ -1,14 +1,15 @@
 import { Routes, Route } from "react-router-dom";
 import "./styles/styles.css";
-import "./styles/beranda-login.css";
-import "./styles/login.css";
-import "./styles/daftar.css";
-import "./styles/cekgejala.css";
 import HomePage from "./pages/Home";
-import CheckSymptomsPage from "./pages/CheckSymptoms";
+import "./styles/HomePage.css"
 import LoginPage from "./pages/Login";
+import "./styles/LoginPage.css";
 import SignUpPage from "./pages/SignUp";
+import "./styles/SignUpPage.css";
+import CheckSymptomsPage from "./pages/CheckSymptoms";
+import "./styles/CheckSymptomsPage.css";
 import ArticlesPage from "./pages/Articles";
+import "./styles/ArticlesPage.css";
 
 function App() {
   return (

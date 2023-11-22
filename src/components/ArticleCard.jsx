@@ -1,17 +1,19 @@
-function ArticleCard() {
+import { Link } from "react-router-dom"
+
+function ArticleCard({ thumbnail, title, desc, postDate, link }) {
     return (
         <div className="kotak-Artikel">
-            <img src="/artikel-img2.png" alt="" />
+            <img src={thumbnail} alt="" />
             <div className="isi-kotak">
-                <h1>Nutrisi untuk anemia</h1>
-                <p className="p-Artikel">Salah satu sumber makanan yang dapat menambah asupan zat besi di dalam tubuh.</p>
-                <div className="tgl-artikel2">
-                    <p>22 November 2023</p>
+                <h1>{title}</h1>
+                <p className="p-Artikel">{desc}</p>
+                <div className="tgl-artikel">
+                    <p>{postDate}</p>
                 </div>
-                <div className="btn-artikel2">
-                    <a className="btn-Artikel" href="#">
+                <div className="btn-artikel">
+                    <Link className="btn-Artikel" href={link}>
                         Baca
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
