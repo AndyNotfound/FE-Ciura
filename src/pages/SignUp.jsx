@@ -1,16 +1,15 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import FormDaftar from "../components/FormDaftar";
+import SignUpForm from '../components/SignUp/SignUpForm'
 
-function DaftarPage() {
+function SignUpPage() {
   return (
     <>
       <Navbar />
-
-      <FormDaftar />
+      <SignUpForm />
       <Footer />
     </>
   );
 }
 
-export default DaftarPage;
+export default SignUpPage;

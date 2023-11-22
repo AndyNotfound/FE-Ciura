@@ -1,14 +1,17 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import BreadCrumb from '../components/BreadCrumb'
+import CheckSymptoms from '../components/CheckSymptoms/CheckSymptoms'
 
-function CheckSymptoms() {
+function CheckSymptomsPage() {
     return (
         <>
             <Navbar />
-            <h1>Cek Gelaja</h1>
+            <BreadCrumb />
+            <CheckSymptoms />
             <Footer />
         </>
     )
 }
 
-export default CheckSymptoms
+export default CheckSymptomsPage

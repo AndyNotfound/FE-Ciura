@@ -1,13 +1,6 @@
-function CekGejala() {
+function CheckSymptoms() {
   return (
     <>
-      <div class="judul-page">
-        <a href="#">Beranda > </a>{" "}
-        <span>
-          <a href="#"> Cek gejala</a>
-        </span>
-      </div>
-
       <div className="judul">
         <h1 className="judul-anemia">INFORMASI ANEMIA</h1>
         <p className="p-anemia">Seputar informasi umum Anemia</p>
@@ -79,4 +72,4 @@ function CekGejala() {
     </>
   );
 }
-export default CekGejala;
+export default CheckSymptoms;

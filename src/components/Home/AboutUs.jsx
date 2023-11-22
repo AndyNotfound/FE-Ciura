@@ -1,6 +1,6 @@
-function Tentangkami() {
+function AboutUsSection() {
   return (
-    <>
+    <section>
       <h1 className="jdl-kami">Tentang kami</h1>
       <div className="tentang-kami">
         <div className="area-left">
@@ -23,7 +23,7 @@ function Tentangkami() {
           <img className="vector2" src="/Vector2.svg" alt="" />
         </div>
       </div>
-    </>
+    </section>
   );
 }
-export default Tentangkami;
+export default AboutUsSection;

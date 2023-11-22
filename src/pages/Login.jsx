@@ -1,15 +1,15 @@
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import CekGejala from "../components/CekGejala";
+import LoginForm from "../components/Login/LoginForm";
 
-function CekGejalaPage() {
+function LoginPage() {
   return (
     <>
       <Navbar />
-      <CekGejala />
+      <LoginForm />
       <Footer />
     </>
   );
 }
 
-export default CekGejalaPage;
+export default LoginPage;

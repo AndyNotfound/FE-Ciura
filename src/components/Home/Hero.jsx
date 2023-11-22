@@ -1,6 +1,6 @@
-function Hero() {
+function HeroSection() {
     return (
-        <div className="container">
+        <section className="container">
             <div className="container-left">
                 <h1 className="judul">Jaga Dirimu.
                     <span>Dengan Menjaga kesehatanmu.</span></h1>
@@ -10,8 +10,8 @@ function Hero() {
             <div className="container-right">
                 <img className="logo-awal" src="/woman-cloud.png" alt="" />
             </div>
-        </div>
+        </section>
     )
 }
 
-export default Hero
+export default HeroSection

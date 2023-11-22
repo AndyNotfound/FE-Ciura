@@ -1,20 +1,20 @@
 import Footer from "../components/Footer";
-import Hero from "../components/Home/Hero";
 import Navbar from "../components/Navbar";
-import Pengertian from "../components/pengertian";
-import Layanankami from "../components/layanankami";
-import Tentangkami from "../components/tentangkami";
-import Artikel from "../components/artikel";
+import HeroSection from '../components/Home/Hero'
+import AnemiaDescSection from "../components/Home/AnemiaDesc";
+import OurServicesSection from "../components/Home/OurServices";
+import AboutUsSection from "../components/Home/AboutUs";
+import ArticleSection from "../components/Home/Article";
 
 function HomePage() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Pengertian />
-      <Layanankami />
-      <Tentangkami />
-      <Artikel />
+      <HeroSection />
+      <AnemiaDescSection />
+      <OurServicesSection />
+      <AboutUsSection />
+      <ArticleSection />
       <Footer />
     </>
   );

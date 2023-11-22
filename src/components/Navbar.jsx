@@ -1,26 +1,83 @@
+import { useState } from 'react';
+import { NavLink, useNavigate, Link } from 'react-router-dom'
+
 function Navbar() {
+    const navigate = useNavigate();
+    // MOCKING USER LOGGED IN STATE
+    const [login, setLogin] = useState(false);
     return (
         <nav>
             <div className="navbar">
-                <div className="logo">CIURA</div>
+                <Link to="/" className="logo">CIURA</Link>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Artikel</a></li>
-                    <li><a href="">Aplikasi</a></li>
-                    <li><a href="">Nutrisi</a></li>
-                    <li><a href="">Forum</a></li>
+                    <li>
+                        <NavLink
+                            to="/"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            Home
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/articles"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            Articles
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/application"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            Application
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/nutrition"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            Nutrition
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/forum"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            Forum
+                        </NavLink>
+                    </li>
                 </ul>
                 <div className="button-navbar">
-                    <button>
-                        <a href="">Download App</a>
-                    </button>
-                    <button>
-                        <a href="">Login</a>
-                    </button>
+                    {login ?
+                        <img src="/profil-img.svg" alt="" />
+                        :
+                        <>
+                            <button onClick={() => navigate("/application")}>
+                                Download App
+                            </button>
+                            <button onClick={() => navigate("/login")}>
+                                Login
+                            </button>
+                        </>
+                    }
                 </div>
             </div>
         </nav>
     )
 }
 
-export default Navbar
+export default Navbar;
