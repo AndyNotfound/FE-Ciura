@@ -259,6 +259,13 @@ span {
 .jdl-kami {
   text-align: center;
   margin-top: 40px;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 .tentang-kami {
   display: flex;
@@ -284,7 +291,7 @@ span .kami {
 .img-kami {
   z-index: 2;
   position: absolute;
-  top: 160%;
+  top: 120%;
 }
 .vector2 {
   position: relative;
@@ -480,6 +487,9 @@ li a {
   top: 16px;
   font-size: 18px;
   font-weight: 600;
+}
+.copyright {
+  margin-top: -10px;
 }
 
 /* END FOOTER */

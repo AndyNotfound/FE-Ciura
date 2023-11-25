@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Poppins";
 }
+
 /* keseleruhan */
 button a {
   text-decoration: none;
@@ -26,7 +27,7 @@ nav {
   align-items: center;
   background: #f5f8fb;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  padding: 0 79px;
+  padding: 0 65px;
   height: 98px;
 }
 .navbar img {
@@ -37,7 +38,6 @@ nav {
 .navbar ul {
   list-style: none;
   display: flex;
-  margin-left: 70px;
 }
 
 .navbar li {
@@ -58,168 +58,154 @@ nav {
 .button-navbar button a {
   color: #fff;
 }
-button {
+.btn-gejala {
+  display: flex;
+  margin-top: 16px;
+}
+.btn-gejala a {
   border: none;
+  padding: 7px 30px;
+  background-color: #720dee;
   color: #fff;
-  background-color: #ee0d51;
-  text-decoration: none;
-  display: inline-block;
-  width: 115px;
-  height: 38px;
-  text-align: center;
-  line-height: 40px;
-  cursor: pointer;
-  border-radius: 6px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.button-navbar {
-  display: flex;
-  gap: 10px;
-}
-/* end navbar */
-
-/* form */
-.teks-atas {
-  text-align: center;
-  margin-top: 26px;
-}
-.teks-atas p {
-  font-family: "Inter";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.teks-atas p a {
-  color: #ee0d51;
-  font-family: Inter;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-decoration-line: underline;
-}
-.form-daftar {
-  max-width: 367px;
-  height: 501px;
-  margin: 18px auto;
-  border-radius: 40px;
-  margin-bottom: 74px;
-  padding: 20px;
-  background: #fff;
-  border: 1px solid #b8b8b8;
-  text-align: center;
-  justify-content: center;
-  display: flex;
-}
-.isi-form {
-  margin-top: -8px;
-}
-h1 {
-  font-weight: 700;
-  font-family: "poppins";
-  font-size: 18px;
-  font-style: normal;
-}
-.masuk {
-  margin-bottom: 20px;
-}
-/* gambar di button */
-button .btn-login {
-  width: 28px;
-  height: 24px;
-}
-.form-btn {
-  width: 334px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 30px;
-  gap: 10px;
-  background-color: #fff;
-  cursor: pointer;
-  border-radius: 10px;
-  box-shadow: none;
-  border: 1px solid #000;
-  border-radius: 40px;
-}
-.form-btn a {
-  font-family: "Roboto";
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  color: #000;
-}
-label {
-  display: block;
-  border: none;
-  color: #000;
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.atau {
-  margin-top: 13px;
-  margin-bottom: 7px;
-}
-.isi-form2 {
-  padding: 0 29px;
-}
-
-label,
-input {
-  width: 334px;
-  height: 45px;
-  padding: 16px 10px;
-  border-radius: 40px;
-  box-sizing: border-box;
-  text-align: left;
-}
-label {
-  margin-bottom: -5px;
-}
-
-.lgn {
-  margin-left: 10px;
-}
-.lgn button {
-  background-color: #fff;
-  border-radius: 40px;
-  background: #720dee;
-  margin-top: 35px;
-  width: 122px;
-  height: 45px;
-  box-shadow: none;
-}
-.lgn a {
-  color: #fff;
-  font-family: Inter;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  border-radius: 40px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-.login-btnn {
-  color: #fff;
+/* end navbar */
+.isi {
+  padding: 30px 65px;
 }
-/* END FORM */
+/* link page */
+.page-link {
+  display: flex;
+  margin-bottom: 62px;
+}
+/* end li
+  /* container */
+h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container-datails-article {
+  display: flex;
+}
+.detailleft-container {
+  width: 810px;
+  margin-bottom: 100px;
+}
+.detailleft-container .date {
+  margin-top: 27px;
+  margin-bottom: 22px;
+  color: #797979;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.detailleft-container img {
+  width: 810px;
+  height: 455px;
+  border-radius: 10px 10px 2px 2px;
+}
+.list {
+  margin-left: 25px;
+  list-style: disc;
+}
 
+.detailleft-container .penjelasan {
+  margin-top: 32px;
+}
+.paragraf {
+  padding-top: 12px;
+}
+.detailright-container {
+  margin-top: 60px;
+  padding-left: 30px;
+}
+.isian {
+  height: 120px;
+}
+.detailbaca-container {
+  width: 368px;
+  height: 200px;
+  border-radius: 10px;
+  background: #fbfbfb;
+  margin-top: 20px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 15px 23px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.ket-bot {
+  display: flex;
+  margin-top: 18px;
+}
+.detaildate-container {
+  color: #6a6a6a;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 750px;
+  margin-top: 8px;
+}
+
+.detailbtn-save {
+  cursor: pointer;
+  background: none;
+}
+.btn-savedetail {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+a.detailbtn-baca {
+  display: flex;
+  width: 300px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 30px;
+  background-color: #720dee;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+.detailbtn-baca {
+  margin-left: 10px;
+}
+
+/* end container */
 /* START FOOTER */
 .welcome {
   color: #000;
-  font-family: Poppins;
-  font-size: 40px;
+  font-family: "Poppins";
+  font-size: 25px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 .ciura {
   color: #720dee;
-  display: inline;
 }
 
 .row {
@@ -239,12 +225,7 @@ footer {
   width: 15%;
   padding: 0 3px;
 }
-.dwnld {
-  margin: 0 5px;
-  margin-bottom: 10px;
-  margin-top: -2px;
-  font-weight: 700;
-}
+
 h4 {
   color: #fff;
 }
@@ -263,15 +244,19 @@ li a {
 }
 .medsos {
   display: flex;
-  margin-left: 12px;
 }
 .medsos li {
-  padding: 10px 5px;
+  padding: 10px 10px;
 }
 .medsos li a {
-  font-size: 20px;
+  font-size: 15px;
 }
-
+.dwnld {
+  margin-bottom: 10px;
+  margin-top: -2px;
+  font-weight: 700;
+  margin-left: 5px;
+}
 .download {
   width: 175px;
   height: 47px;

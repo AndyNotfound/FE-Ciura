@@ -151,7 +151,7 @@ span {
   padding: 68px 74px;
 }
 .kotak-kanan {
-  padding: 68px 44px;
+  padding: 68px 198px;
 }
 .btn-baca {
   display: flex;
@@ -196,7 +196,7 @@ span {
   padding: 20px;
   margin: 10px;
   width: 305px;
-  height: 310px;
+  height: 352px;
   border-radius: 10px;
   background: var(--1, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -236,6 +236,14 @@ span {
 .tentang-kami {
   display: flex;
 }
+.salam-kenal {
+  color: #000;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 span .kami {
   display: block;
   margin-top: 0.5px;
@@ -247,8 +255,8 @@ span .kami {
   margin-bottom: 11px;
 }
 .area-right img {
-  width: 400px;
-  height: 400px;
+  width: 500px;
+  height: 500px;
   padding: 68px 83px;
 }
 .p-kami p {
@@ -257,11 +265,11 @@ span .kami {
 .img-kami {
   z-index: 2;
   position: absolute;
-  top: 267%;
+  top: 265%;
 }
 .vector2 {
   position: relative;
-  top: 11.5%;
+  top: 3%;
   width: 300px;
   background-blend-mode: darken;
   z-index: 1;

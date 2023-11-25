@@ -63,18 +63,11 @@ function Footer() {
                   <span className="p2">Google Play</span>
                 </div>
               </li>
-              <li>
-                <div className="download apple">
-                  <FaApple className="fa-brands" />
-                  <span className="p1">Available on the</span>
-                  <span className="p2">AppStore</span>
-                </div>
-              </li>
             </ul>
           </div>
         </div>
       </div>
-      <div style={{ marginTop: "70px", textAlign: "center", color: "#ffffff", fontWeight: "bold" }} className="copyright">
+      <div style={{ marginTop: "18px", textAlign: "center", color: "#ffffff", fontWeight: "500" }} className="copyright">
         Copyright 2023 © Ciura. All rights reserved
       </div>
     </footer>
