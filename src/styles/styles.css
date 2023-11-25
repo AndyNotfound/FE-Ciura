@@ -42,7 +42,14 @@ nav {
   display: flex;
   margin-left: 70px;
 }
-
+.btn-navbar {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 .navbar li {
   margin-right: 22px;
 }
@@ -50,7 +57,7 @@ nav {
   text-decoration: none;
   color: #000;
 }
-.logo {
+.navbar .logo {
   color: #583bb6;
   font-family: "Sonsie One";
   font-size: 40px;
@@ -95,19 +102,26 @@ button a {
 }
 .judul {
   margin-bottom: 16px;
+  font-size: 40px;
 }
 span {
   display: block;
   margin-top: 1px;
 }
+.spanHero {
+  display: inline;
+  font-weight: 600;
+}
 
 .container-left {
-  padding: 110px 80px;
+  padding-top: 110px;
+}
+.container-left p {
   color: #fff;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 18px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: normal;
   line-height: normal;
 }
 .container-left button {
@@ -161,6 +175,7 @@ span {
 .kotak-kanan {
   padding: 68px 44px;
 }
+
 .btn-baca {
   display: flex;
   width: 198px;
@@ -209,6 +224,9 @@ span {
   background: var(--1, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   text-align: center;
+}
+.p-Artikel {
+  height: 110px;
 }
 .p-layanan {
   height: 175px;
@@ -265,7 +283,7 @@ span .kami {
 .img-kami {
   z-index: 2;
   position: absolute;
-  top: 269.5%;
+  top: 160%;
 }
 .vector2 {
   position: relative;
@@ -336,7 +354,7 @@ span .kami {
   line-height: normal;
 }
 .tgl-artikel2 p {
-  padding-top: 50px;
+  padding-top: 70px;
   color: #6a6a6a;
   font-size: 14px;
   font-style: normal;

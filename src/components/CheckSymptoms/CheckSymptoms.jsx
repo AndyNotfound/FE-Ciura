@@ -1,16 +1,16 @@
 function CheckSymptoms() {
   return (
     <>
-      <div className="judul">
+      <div className="judul-CheckSymptoms">
         <h1 className="judul-anemia">INFORMASI ANEMIA</h1>
         <p className="p-anemia">Seputar informasi umum Anemia</p>
       </div>
       <div className="kotak">
-        <div className="container-left">
+        <div className="block-left">
           <div className="container4">
             <h3 className="judul-container">Yang di Rasakan saat anemia</h3>
             <div className="rows"></div>
-            <p>
+            <p className="p-anemia">
               Anemia sering dikenal dengan gejala 5L : lemah, letih, lesu, lelah, dan lalai. “5L merupakan gejala yang sering dirasakan oleh penderita anemia. Selain 5 gejala tersebut, biasanya orang
               lain akan menyadari bahwa penderita anemia berwajah pucat.
             </p>
@@ -34,7 +34,7 @@ function CheckSymptoms() {
             </p>
           </div>
         </div>
-        <div className="container-right">
+        <div className="block-right">
           <div className="container2">
             <h3 className="judul-container">Gejala umum pada anemia</h3>
             <div className="rows"></div>

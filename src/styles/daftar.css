@@ -99,7 +99,7 @@ button {
   line-height: normal;
   text-decoration-line: underline;
 }
-form {
+.form-daftar {
   max-width: 367px;
   height: 471px;
   margin: 18px auto;
@@ -219,6 +219,7 @@ label {
 }
 .ciura {
   color: #720dee;
+  display: inline;
 }
 
 .row {

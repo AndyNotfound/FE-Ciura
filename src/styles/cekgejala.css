@@ -89,7 +89,7 @@ span a {
 
 /* judul anemia */
 
-.judul {
+.judul-CheckSymptoms {
   text-align: center;
   margin-top: 70px;
 }
@@ -107,7 +107,7 @@ span a {
 /* end judul anemia */
 
 /* container */
-p {
+.block p .p-anemia {
   color: var(--3, #000);
   font-family: Poppins;
   font-size: 18px;
@@ -115,8 +115,8 @@ p {
   font-weight: 400;
   line-height: normal;
 }
-.container-left,
-.container-right {
+.block-left,
+.block-right {
   padding: 80px 6px;
 }
 .rows {

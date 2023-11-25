@@ -12,7 +12,7 @@ function SignUpForm() {
         </p>
       </div>
 
-      <form>
+      <form className="form-daftar">
         <div className="isi-form">
           <h1 className="masuk">Daftar</h1>
           <button className="form-btn">
