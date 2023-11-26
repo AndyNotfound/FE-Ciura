@@ -8,7 +8,7 @@ function LoginForm() {
           Selamat datang di <span className="ciura">Ciura</span>
         </div>
         <p>
-          Belum punya akun? <Link to="/signup">Daftar</Link>
+          Belum punya akun? <Link to="/signup">daftar</Link>
         </p>
       </div>
 
