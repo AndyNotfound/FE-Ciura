@@ -12,6 +12,8 @@ import ArticlesPage from "./pages/Articles";
 import "./styles/ArticlesPage.css";
 import DetailsArticles from "./pages/DetailsArticle";
 import "./styles/DetailsArticlePage.css";
+import Nutrition from "./pages/Nutrition";
+import "./styles/NutritionRecommend.css";
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
       <Route path="/signup" element={<SignUpPage />} />
       <Route path="/articles" element={<ArticlesPage />} />
       <Route path="/DetailsArticle" element={<DetailsArticles />} />
+      <Route path="/Nutrition" element={<Nutrition />} />
     </Routes>
   );
 }

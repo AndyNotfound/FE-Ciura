@@ -27,7 +27,7 @@ nav {
   align-items: center;
   background: #f5f8fb;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  padding: 0 65px;
+  padding: 0 79px;
   height: 98px;
 }
 .navbar img {
@@ -38,6 +38,7 @@ nav {
 .navbar ul {
   list-style: none;
   display: flex;
+  margin-left: 70px;
 }
 
 .navbar li {
@@ -58,143 +59,140 @@ nav {
 .button-navbar button a {
   color: #fff;
 }
-.btn-gejala {
-  display: flex;
-  margin-top: 16px;
-}
-.btn-gejala a {
-  border: none;
-  padding: 7px 30px;
-  background-color: #720dee;
+button {
   color: #fff;
+  background-color: #ee0d51;
+  text-decoration: none;
+  display: inline-block;
+  width: 115px;
+  height: 38px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+button a {
+  font-weight: 700;
+}
+.button-navbar {
+  display: flex;
+  gap: 10px;
+}
+/* end navbar */
+/* page */
+.title {
+  text-align: center;
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.judul-page {
+  padding: 22px 80px;
+}
+/* end page */
+
+/* section 1 */
+.img-rekomendasi {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 67px;
+  gap: 10px;
+}
+.rekomendasi-img {
+  width: 436px;
+  height: 172px;
+  border-radius: 20px;
+  background: url(/public/rekomendasi-img.png), lightgray 50% / cover no-repeat;
+  background-blend-mode: darken;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+.pantangan-img {
+  width: 436px;
+  height: 172px;
+  border-radius: 20px;
+  background: url(/public/rekomendasi-img2.png), lightgray 50% / cover no-repeat;
+  background-blend-mode: darken;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+.img-isi {
+  padding: 13px 26px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  flex-shrink: 0;
+}
+.img-isi-span {
+  color: #fff;
+  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  border-radius: 40px;
+  display: block;
+  margin-top: 1px;
+  width: 362px;
+  height: 35px;
+}
+/* end section 1 */
+
+/* section 2 */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  max-width: 600px;
+  padding: 0 105px;
+  margin-bottom: 101px;
+}
+
+.card {
+  width: 180px;
+  height: 298px;
+  border-radius: 10px;
+  background: #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-/* end navbar */
-.isi {
-  padding: 30px 65px;
-}
-/* link page */
-.page-link {
-  display: flex;
-  margin-bottom: 62px;
-}
-/* end li
-  /* container */
-h2 {
+
+.card-header {
   color: #000;
   font-family: Poppins;
   font-size: 18px;
   font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.container-datails-article {
-  display: flex;
-}
-.detailleft-container {
-  width: 810px;
-  margin-bottom: 100px;
-}
-.detailleft-container .date {
-  margin-top: 27px;
-  margin-bottom: 22px;
-  color: #797979;
-  font-family: Poppins;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-.detailleft-container img {
-  width: 810px;
-  height: 455px;
-  border-radius: 10px 10px 2px 2px;
-}
-.list {
-  margin-left: 25px;
-  list-style: disc;
-}
-
-.detailleft-container .penjelasan {
-  margin-top: 32px;
-}
-.paragraf {
-  padding-top: 12px;
-}
-.detailright-container {
-  margin-top: 60px;
-  padding-left: 50px;
-}
-.isian {
-  height: 120px;
-}
-.detailbaca-container {
-  width: 368px;
-  height: 200px;
-  border-radius: 10px;
-  background: #fbfbfb;
-  margin-top: 20px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  padding: 15px 23px;
-  color: #000;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.ket-bot {
-  display: flex;
-  margin-top: 18px;
-}
-.detaildate-container {
-  color: #6a6a6a;
-  font-family: Poppins;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  width: 750px;
-  margin-top: 8px;
-}
-
-.detailbtn-save {
-  cursor: pointer;
-  background: none;
-}
-.btn-savedetail {
-  border: none;
-  background: none;
-  cursor: pointer;
-}
-a.detailbtn-baca {
-  display: flex;
-  width: 300px;
-  height: 35px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 30px;
-  background-color: #720dee;
-  color: #fff;
-  text-align: center;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 600;
   line-height: normal;
   text-align: center;
 }
-.detailbtn-baca {
-  margin-left: 10px;
+
+.card-body {
+  text-align: center;
 }
 
-/* end container */
+.card-body img {
+  width: 100%;
+  height: 212px;
+  border-radius: 10px;
+  padding: 0 0;
+}
+
+.card-body p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 8px;
+}
+
+/* end section 2 */
+
 /* START FOOTER */
 .welcome {
   color: #000;

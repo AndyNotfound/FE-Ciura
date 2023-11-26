@@ -1,5 +1,5 @@
 import { IoLogoGooglePlaystore } from "react-icons/io5";
-import { FaApple, FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
 
 function Footer() {
   return (

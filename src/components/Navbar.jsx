@@ -28,7 +28,7 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/nutrition" className={({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")}>
+            <NavLink to="/Nutrition" className={({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")}>
               Nutrition
             </NavLink>
           </li>
