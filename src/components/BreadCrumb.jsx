@@ -1,5 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
+import slugsToTitle from "../utils/slugsToTitle";
 
 function BreadCrumb() {
   const location = useLocation().pathname.split("/");
@@ -18,7 +19,7 @@ function BreadCrumb() {
             <div key={index}>
               <IoIosArrowForward />
               <Link className="breadcrumb__link" to={`/${breadPath.trim()}`}>
-                {path}
+                {slugsToTitle(path)}
               </Link>
             </div>
           );
