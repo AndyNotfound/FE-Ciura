@@ -4,7 +4,7 @@ function AboutUsSection() {
       <h1 className="jdl-kami">Tentang kami</h1>
       <div className="tentang-kami">
         <div className="area-left">
-          <h1>
+          <h1 className="salam-kenal">
             Halo! Salam kenal <span className="kami">Masapuan Grup!</span>
           </h1>
           <div className="p-kami">

@@ -12,7 +12,7 @@ function LoginForm() {
         </p>
       </div>
 
-      <form>
+      <form className="login-form">
         <div className="isi-form">
           <h1 className="masuk">Masuk</h1>
           <button className="form-btn">
