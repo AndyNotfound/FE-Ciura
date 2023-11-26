@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
+import titleToSlug from "../utils/titleToSlugs"
 
-function ArticleCard({ thumbnail, title, desc, postDate, link }) {
+function ArticleCard({ thumbnail, title, desc, postDate }) {
     return (
         <div className="kotak-Artikel">
             <img src={thumbnail} alt="" />
@@ -11,7 +12,12 @@ function ArticleCard({ thumbnail, title, desc, postDate, link }) {
                     <p>{postDate}</p>
                 </div>
                 <div className="btn-artikel">
-                    <Link className="btn-Artikel" href={link}>
+                    <Link
+                        className="btn-Artikel"
+                        to={
+                            `/articles/${titleToSlug(title)}`
+                        }
+                    >
                         Baca
                     </Link>
                 </div>
