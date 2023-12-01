@@ -117,7 +117,7 @@ span a {
 }
 .block-left,
 .block-right {
-  padding: 80px 6px;
+  padding: 80px 10px;
 }
 .rows {
   border-top: 1px solid #b8b8b8;
@@ -148,7 +148,7 @@ span a {
 }
 .kotak {
   display: flex;
-  padding: 0 0 50px 40px;
+  padding: 0 0 50px 70px;
 }
 
 /* end container */

@@ -157,6 +157,7 @@ button a {
 }
 
 .card {
+  cursor: pointer;
   width: 180px;
   height: 298px;
   border-radius: 10px;
