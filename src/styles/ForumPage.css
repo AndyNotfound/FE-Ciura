@@ -75,146 +75,122 @@ nav {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 /* end navbar */
-.isi > .breadcrumb {
-  margin-left: unset;
-}
-.isi {
-  padding: 30px 65px;
-}
 
-/* link page */
-.page-link {
-  display: flex;
-  margin-bottom: 62px;
+/* page link */
+.forum-section {
+  padding: 0 75px;
 }
-/* end li
-  /* container */
-h2 {
+.judul-page {
+  padding: 22px 75px;
+}
+/* end page link */
+
+/* isi */
+.forum-judul {
+  padding: 30px 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.search {
+  display: flex;
+  margin-bottom: 70px;
+}
+input {
+  border-radius: 40px;
+  border: 1px solid #000;
+  background: #fff;
+  width: 650px;
+  height: 35px;
+  flex-shrink: 0;
+  padding: 0 10px;
+}
+.btn-forum {
+  margin-left: 11px;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  width: 79px;
+  height: 33px;
+  border-radius: 40px;
+  background: #720dee;
+  margin-top: 3px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.forum-card {
+  border-radius: 10px;
+  background: #fbfbfb;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.search-icon {
+  width: 30px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 42.9%;
+  right: 48%;
+  cursor: pointer;
+  box-shadow: none;
+}
+.forum-container {
+  display: flex;
+  width: 270px;
+  height: 300px;
+  margin-bottom: 100px;
+  gap: 50px;
+}
+.card-judul {
   color: #000;
   font-family: Poppins;
   font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font-weight: 600;
+  width: 252px;
+  padding: 5px 20px;
 }
-.container-datails-article {
+.forum-cardIsi {
   display: flex;
+  padding: 15px 20px;
 }
-.detailleft-container {
-  width: 810px;
-  margin-bottom: 100px;
-}
-.detailleft-container .date {
-  margin-top: 27px;
-  margin-bottom: 22px;
-  color: #797979;
-  font-family: Poppins;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-.detailleft-container img {
-  width: 810px;
-  height: 455px;
-  border-radius: 10px 10px 2px 2px;
-}
-.list {
-  margin-left: 25px;
-  list-style: disc;
-}
-
-.detailleft-container .penjelasan {
-  margin-top: 32px;
-}
-.paragraf {
-  padding-top: 12px;
-}
-.detailright-container {
-  margin-top: 60px;
-  padding-left: 50px;
-}
-.isian {
-  height: fit-content;
-}
-.detailbaca-container {
-  width: 368px;
-  min-height: 200px;
-  height: fit-content;
-  border-radius: 10px;
-  background: #fbfbfb;
-  margin-top: 20px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  padding: 15px 23px;
+.card-desc {
+  margin-left: 10px;
   color: #000;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.ket-bot {
-  display: flex;
-  margin-top: 1px;
-}
-.ket-cardnutrition {
-  display: flex;
-  margin-top: 10px;
-}
-.detaildate-container {
-  color: #6a6a6a;
   font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 750px;
-  margin-top: 8px;
 }
-
-.detailbtn-save {
-  cursor: pointer;
-  background: none;
+.card-link-tgl {
+  display: block;
+  margin-top: 1px;
 }
-.btn-savedetail {
-  border: none;
-  background: none;
-  cursor: pointer;
-}
-.btn-bacaArticle {
-  background-color: #720dee;
-  display: flex;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  padding: 2px 27px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  color: #fff;
-  border-radius: 40px;
-  margin-left: 14px;
-}
-a.detailbtn-baca {
-  display: flex;
-  width: 100px;
-  height: 30px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30px;
-  background-color: #720dee;
-  color: #fff;
+a.card-link {
+  text-decoration: underline;
+  color: #077bcf;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: normal;
-  text-align: center;
-  margin-left: 105px;
-  margin-top: 18px;
 }
+.dari {
+  display: flex;
+  gap: 4px;
+}
+.from {
+  color: #b8b8b8;
+}
+/* end isi */
 
-/* end container */
 /* START FOOTER */
 .welcome {
   color: #000;

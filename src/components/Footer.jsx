@@ -1,7 +1,9 @@
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
+import { NavLink, useNavigate } from "react-router-dom";
 
 function Footer() {
+  const navigate = useNavigate();
   return (
     <footer>
       <div className="conntainer-ftr">
@@ -12,7 +14,9 @@ function Footer() {
                 <a href="#">Tentang Kami</a>
               </li>
               <li>
-                <a href="#">Cek Gejala</a>
+                <NavLink to="/symptoms" className={({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")}>
+                  Cek Gejala
+                </NavLink>
               </li>
               <li>
                 <a href="#">FAQ</a>

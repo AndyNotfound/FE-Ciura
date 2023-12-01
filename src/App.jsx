@@ -14,6 +14,8 @@ import DetailsArticles from "./pages/DetailsArticle";
 import "./styles/DetailsArticlePage.css";
 import Nutrition from "./pages/Nutrition";
 import "./styles/NutritionRecommend.css";
+import Forum from "./pages/forum";
+import "./styles/Forum.css";
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
       <Route path="/login" element={<LoginPage />} />
       <Route path="/signup" element={<SignUpPage />} />
       <Route path="/articles" element={<ArticlesPage />} />
+      <Route path="/forum" element={<Forum />} />
       <Route path="/Nutrition" element={<Nutrition />} />
       <Route path="/articles/:title" element={<DetailsArticles />} />
     </Routes>
