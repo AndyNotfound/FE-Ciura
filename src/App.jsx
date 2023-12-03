@@ -20,6 +20,10 @@ import DetailForum from "./pages/DetailForum";
 import "./styles/DetailsForumPage.css";
 import CreateForum from "./pages/CreateForum";
 import "./styles/CreateForumPage.css";
+import Profil from "./pages/Profil";
+import "./styles/ProfilPage.css";
+import Application from "./pages/Application";
+import "./styles/ApplicationPage.css";
 
 function App() {
   return (
@@ -34,6 +38,8 @@ function App() {
       <Route path="/createforum" element={<CreateForum />} />
       <Route path="/Nutrition" element={<Nutrition />} />
       <Route path="/articles/:title" element={<DetailsArticles />} />
+      <Route path="/profil" element={<Profil />} />
+      <Route path="/application" element={<Application />} />
     </Routes>
   );
 }
