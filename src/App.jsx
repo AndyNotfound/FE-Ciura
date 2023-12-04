@@ -12,8 +12,10 @@ import DetailForum from "./pages/DetailForum";
 import CreateForum from "./pages/CreateForum";
 import ProfilePage from "./pages/Profil";
 import Application from "./pages/Application";
+import useScrollToTop from "./hooks/useScrollToTop";
 
 function App() {
+  useScrollToTop();
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
