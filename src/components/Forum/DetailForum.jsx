@@ -47,7 +47,7 @@ function DetailForum() {
                 <div className="option-right-icon">
                   <a href="">Bagikan</a>
                   <img src="/facebook-icon.png" alt="" />
-                  <i className="fa-brands fa-twitter"></i>
+                  <img src="/twitter-logo-forum.png" alt="" />
                   <i className="fa-solid fa-envelope"></i>
                 </div>
               </div>

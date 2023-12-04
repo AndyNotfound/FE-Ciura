@@ -27,18 +27,9 @@ function App() {
       <Route path="/articles" element={<ArticlesPage />} />
       <Route path="/articles/:id/:slug" element={<DetailsArticlePage />} />
       <Route path="/forum" element={<Forum />} />
-<<<<<<< HEAD
-      <Route path="/detailforum" element={<DetailForum />} />
-      <Route path="/createforum" element={<CreateForum />} />
-      <Route path="/Nutrition" element={<Nutrition />} />
-      <Route path="/articles/:title" element={<DetailsArticles />} />
-      <Route path="/profil" element={<Profil />} />
-      <Route path="/application" element={<Application />} />
-=======
       <Route path="/forum/:id/:slug" element={<DetailForum />} />
       <Route path="/forum/new" element={<CreateForum />} />
       <Route path="/profile" element={<ProfilePage />} />
->>>>>>> d03e2dde2e6dcbae2a5691ae218ac142b7b3edb1
     </Routes>
   );
 }
