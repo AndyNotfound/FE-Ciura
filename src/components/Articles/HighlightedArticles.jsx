@@ -1,7 +1,8 @@
+import PropTypes from 'prop-types'
 import { Link } from "react-router-dom"
 import titleToSlug from "../../utils/titleToSlugs";
 
-function HighlightedArticles({ thumbnail, title, desc }) {
+function HighlightedArticles({ id, thumbnail, title, desc }) {
     return (
         <div className="highlighted">
             <div className="highlighted-detail">
@@ -11,7 +12,7 @@ function HighlightedArticles({ thumbnail, title, desc }) {
                     <Link
                         className="btn-Artikel"
                         to={
-                            `/articles/${titleToSlug(title)}`
+                            `/articles/${id}/${titleToSlug(title)}`
                         }
                     >
                         Lanjut Baca
@@ -21,6 +22,13 @@ function HighlightedArticles({ thumbnail, title, desc }) {
             <img src={thumbnail} alt="" className="highlighted-thumbnail" />
         </div>
     )
+}
+
+HighlightedArticles.propTypes = {
+    id: PropTypes.number.isRequired,
+    thumbnail: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    desc: PropTypes.string.isRequired
 }
 
 export default HighlightedArticles;

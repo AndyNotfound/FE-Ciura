@@ -1,5 +1,5 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import "../styles/HomePage.css";
+import Layout from "../components/Layout";
 import HeroSection from "../components/Home/Hero";
 import AnemiaDescSection from "../components/Home/AnemiaDesc";
 import OurServicesSection from "../components/Home/OurServices";
@@ -8,15 +8,13 @@ import ArticleSection from "../components/Home/Article";
 
 function HomePage() {
   return (
-    <>
-      <Navbar />
+    <Layout>
       <HeroSection />
       <AnemiaDescSection />
       <OurServicesSection />
       <AboutUsSection />
       <ArticleSection />
-      <Footer />
-    </>
+    </Layout>
   );
 }
 

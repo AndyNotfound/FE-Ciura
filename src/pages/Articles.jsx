@@ -1,16 +1,21 @@
+import "../styles/ArticlesPage.css";
+import Layout from "../components/Layout";
 import BreadCrumb from '../components/BreadCrumb'
-import Navbar from '../components/Navbar'
 import ArticleCard from '../components/ArticleCard'
 import HighlightedArticles from '../components/Articles/HighlightedArticles'
-import Footer from '../components/Footer'
-import articlesArray from '../utils/data'
+import { articlesArray } from '../utils/data'
 
 function ArticlesPage() {
     return (
-        <>
-            <Navbar />
-            <BreadCrumb />
+        <Layout>
+            <BreadCrumb
+                list={[
+                    { path: "/", name: "Beranda" },
+                    { path: "/articles", name: "Artikel" }
+                ]}
+            />
             <HighlightedArticles
+                id={articlesArray[0]?.id}
                 thumbnail={articlesArray[0]?.thumbnail}
                 title={articlesArray[0]?.title}
                 desc={articlesArray[0]?.desc}
@@ -32,8 +37,7 @@ function ArticlesPage() {
                     )
                 })}
             </div>
-            <Footer />
-        </>
+        </Layout>
     )
 }
 

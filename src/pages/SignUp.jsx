@@ -1,14 +1,12 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import "../styles/SignUpPage.css";
 import SignUpForm from '../components/SignUp/SignUpForm'
+import Layout from "../components/Layout";
 
 function SignUpPage() {
   return (
-    <>
-      <Navbar />
+    <Layout>
       <SignUpForm />
-      <Footer />
-    </>
+    </Layout>
   );
 }
 

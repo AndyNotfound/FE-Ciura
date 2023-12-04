@@ -1,26 +1,31 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import "../styles/DetailsArticlePage.css";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import articlesArray from "../utils/data";
+import { articlesArray } from "../utils/data";
 import BreadCrumb from "../components/BreadCrumb";
 import titleToSlug from "../utils/titleToSlugs";
 import RelatedArticleCard from "../components/ArticleDetail/RelatedArticleCard";
+import Layout from "../components/Layout";
 
-function DetailsArticle() {
-  const { title } = useParams();
+function DetailsArticlePage() {
+  const { id, slug } = useParams();
   const [article, setArticle] = useState(undefined);
 
   useEffect(() => {
-    const filteredArticles = articlesArray.find((article) => titleToSlug(article.title) == title)
+    const filteredArticles = articlesArray.find((article) => titleToSlug(article.id) === id)
     setArticle(filteredArticles)
-  }, [title]);
+  }, [id]);
 
   return (
-    <>
-      <Navbar />
+    <Layout>
       <div className="isi">
-        <BreadCrumb />
+        <BreadCrumb
+          list={[
+            { path: "/", name: "Beranda" },
+            { path: "/articles", name: "Artikel" },
+            { path: `/articles/${id}/${slug}`, name: article?.title }
+          ]}
+        />
         <h1>{article?.title}</h1>
         <div className="container-datails-article">
           <div className="detailleft-container">
@@ -89,9 +94,8 @@ function DetailsArticle() {
           </div>
         </div>
       </div>
-      <Footer />
-    </>
+    </Layout>
   );
 }
 
-export default DetailsArticle;
+export default DetailsArticlePage;

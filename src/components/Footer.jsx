@@ -1,9 +1,8 @@
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
-import { NavLink, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Footer() {
-  const navigate = useNavigate();
   return (
     <footer>
       <div className="conntainer-ftr">
@@ -11,28 +10,25 @@ function Footer() {
           <div className="footer-col">
             <ul>
               <li>
-                <a href="#">Tentang Kami</a>
+                <Link to="/application">Tentang Kami</Link>
               </li>
               <li>
-                <NavLink to="/symptoms" className={({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")}>
-                  Cek Gejala
-                </NavLink>
-              </li>
-              <li>
-                <a href="#">FAQ</a>
+                <Link to="/faq">
+                  FAQ
+                </Link>
               </li>
             </ul>
           </div>
           <div className="footer-col">
             <ul>
               <li>
-                <a href="#">Hubungi Kami</a>
+                <p>Hubungi Kami</p>
               </li>
               <li>
-                <a href="#">0812-3456-78</a>
+                <p>0812-3456-78</p>
               </li>
               <li>
-                <a href="#">ciura@gmail.com</a>
+                <p>ciura@gmail.com</p>
               </li>
             </ul>
           </div>

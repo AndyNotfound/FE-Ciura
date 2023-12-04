@@ -1,16 +1,21 @@
 import BreadCrumb from "../components/BreadCrumb";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Application from "../components/Application/Application";
+import Layout from "../components/Layout";
+import AppHero from "../components/Application/AppHero";
+import AppFeatures from "../components/Application/AppFeatures";
+import "../styles/ApplicationPage.css";
 
 function ApplicationPage() {
   return (
-    <>
-      <Navbar />
-      <BreadCrumb />
-      <Application />
-      <Footer />
-    </>
+    <Layout>
+      <BreadCrumb
+        list={[
+          { path: "/", name: "Beranda" },
+          { path: "/application", name: "Aplikasi" },
+        ]}
+      />
+      <AppHero />
+      <AppFeatures />
+    </Layout>
   );
 }
 

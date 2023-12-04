@@ -1,16 +1,19 @@
 import BreadCrumb from "../components/BreadCrumb";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import CreateForum from "../components/Forum/CreateForum";
+import Layout from "../components/Layout";
+import "../styles/CreateForumPage.css";
+import NewForumForm from "../components/ForumNew/NewForumForm";
 
 function CreateForumPage() {
   return (
-    <>
-      <Navbar />
-      <BreadCrumb />
-      <CreateForum />
-      <Footer />
-    </>
+    <Layout>
+      <BreadCrumb
+        list={[
+          { path: "/", name: "Beranda" },
+          { path: "/forum/new", name: "Forum" },
+        ]}
+      />
+      <NewForumForm />
+    </Layout>
   );
 }
 

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function OurServicesSection() {
   return (
     <section className="layanan-kami">
@@ -6,30 +8,30 @@ function OurServicesSection() {
         <div className="kotak-layanan">
           <h1>Cek Gejala</h1>
           <p className="p-layanan">Lorem ipsum dolor sit amet consectetur. Sit quam tortor ornare eget et nisl dolor fames tellus.</p>
-          <a className="btn-layanan" href="">
+          <Link className="btn-layanan" to={"/faq"}>
             Pergi
-          </a>
+          </Link>
         </div>
         <div className="kotak-layanan">
           <h1>layanan</h1>
           <p className="p-layanan">Lorem ipsum dolor sit amet consectetur. Sit quam tortor ornare eget et nisl dolor fames tellus.</p>
-          <a className="btn-layanan" href="">
+          <Link className="btn-layanan" to={"/"}>
             Pergi
-          </a>
+          </Link>
         </div>
         <div className="kotak-layanan">
           <h1>Aplikasi</h1>
           <p className="p-layanan">Lorem ipsum dolor sit amet consectetur. Sit quam tortor ornare eget et nisl dolor fames tellus.</p>
-          <a className="btn-layanan" href="">
+          <Link className="btn-layanan" to={"/application"}>
             Pergi
-          </a>
+          </Link>
         </div>
         <div className="kotak-layanan">
           <h1>Nutrisi</h1>
           <p className="p-layanan">Lorem ipsum dolor sit amet consectetur. Sit quam tortor ornare eget et nisl dolor fames tellus.</p>
-          <a className="btn-layanan" href="">
+          <Link className="btn-layanan" to={"/nutrition"}>
             Pergi
-          </a>
+          </Link>
         </div>
       </div>
     </section>
