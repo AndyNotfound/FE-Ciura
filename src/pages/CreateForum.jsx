@@ -9,7 +9,7 @@ function CreateForumPage() {
       <BreadCrumb
         list={[
           { path: "/", name: "Beranda" },
-          { path: "/forum/new", name: "Forum" },
+          { path: "/forums/new", name: "Forum" }
         ]}
       />
       <NewForumForm />

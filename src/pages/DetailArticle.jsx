@@ -1,20 +1,14 @@
-import "../styles/DetailsArticlePage.css";
+import "../styles/DetailArticlePage.css";
 import { useParams } from "react-router-dom";
-import { useState, useEffect } from "react";
 import { articlesArray } from "../utils/data";
 import BreadCrumb from "../components/BreadCrumb";
-import titleToSlug from "../utils/titleToSlugs";
 import RelatedArticleCard from "../components/ArticleDetail/RelatedArticleCard";
 import Layout from "../components/Layout";
 
-function DetailsArticlePage() {
+function DetailArticlePage() {
   const { id, slug } = useParams();
-  const [article, setArticle] = useState(undefined);
 
-  useEffect(() => {
-    const filteredArticles = articlesArray.find((article) => titleToSlug(article.id) === id)
-    setArticle(filteredArticles)
-  }, [id]);
+  const article = articlesArray.find((article) => article.id == id)
 
   return (
     <Layout>
@@ -98,4 +92,4 @@ function DetailsArticlePage() {
   );
 }
 
-export default DetailsArticlePage;
+export default DetailArticlePage;

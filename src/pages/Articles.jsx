@@ -1,11 +1,11 @@
-import "../styles/ArticlesPage.css";
+import "../styles/ArticleListPage.css";
 import Layout from "../components/Layout";
 import BreadCrumb from '../components/BreadCrumb'
 import ArticleCard from '../components/ArticleCard'
-import HighlightedArticles from '../components/Articles/HighlightedArticles'
+import HighlightedArticle from '../components/Articles/HighlightedArticle'
 import { articlesArray } from '../utils/data'
 
-function ArticlesPage() {
+function ArticleListPage() {
     return (
         <Layout>
             <BreadCrumb
@@ -14,7 +14,7 @@ function ArticlesPage() {
                     { path: "/articles", name: "Artikel" }
                 ]}
             />
-            <HighlightedArticles
+            <HighlightedArticle
                 id={articlesArray[0]?.id}
                 thumbnail={articlesArray[0]?.thumbnail}
                 title={articlesArray[0]?.title}
@@ -41,4 +41,4 @@ function ArticlesPage() {
     )
 }
 
-export default ArticlesPage
+export default ArticleListPage
