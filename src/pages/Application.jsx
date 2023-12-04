@@ -9,8 +9,8 @@ function ApplicationPage() {
     <Layout>
       <BreadCrumb
         list={[
-          { path: '/', name: 'Beranda', },
-          { path: '/application', name: 'Aplikasi' }
+          { path: "/", name: "Beranda" },
+          { path: "/application", name: "Aplikasi" },
         ]}
       />
       <AppHero />

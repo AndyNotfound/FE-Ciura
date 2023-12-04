@@ -1,5 +1,5 @@
 import BreadCrumb from "../components/BreadCrumb";
-import Layout from '../components/Layout'
+import Layout from "../components/Layout";
 import "../styles/CreateForumPage.css";
 import NewForumForm from "../components/ForumNew/NewForumForm";
 
