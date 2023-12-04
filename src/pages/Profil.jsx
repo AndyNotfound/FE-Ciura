@@ -1,5 +1,4 @@
 import Layout from "../components/Layout";
-import "../styles/ProfilPage.css";
 import SideMenu from "../components/Sidemenu";
 import SideMenuProfile from "../components/SidemenuProfile";
 import ProfileArtikel from "../components/ProfileArtikel";
