@@ -9,7 +9,7 @@ function Navbar() {
     <nav>
       <div className="navbar">
         <Link to="/" className="logo">
-          CIURA
+          Ciura
         </Link>
         <ul>
           <li>
