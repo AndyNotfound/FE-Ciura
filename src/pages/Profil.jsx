@@ -1,11 +1,16 @@
 import Layout from "../components/Layout";
 import SideMenu from "../components/Sidemenu";
-import "../styles/ProfilPage.css";
+import SideMenuProfile from "../components/SidemenuProfile";
+import ProfileArtikel from "../components/ProfileArtikel";
+import ProfileForum from "../components/ProfileForum";
 
 function ProfilePage() {
   return (
     <Layout>
-      <SideMenu />
+      <div className="profilpage-section">
+        <SideMenu />
+        <ProfileForum />
+      </div>
     </Layout>
   );
 }
