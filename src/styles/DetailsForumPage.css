@@ -87,7 +87,7 @@ nav {
 
 /* isi */
 .forum-judul {
-  padding: 30px 0;
+  padding: 25px 0;
   color: #000;
   font-family: Poppins;
   font-size: 40px;
@@ -95,12 +95,13 @@ nav {
   font-weight: 600;
   line-height: normal;
 }
+
 .search {
   display: flex;
+  margin-top: 30px;
   margin-bottom: 70px;
-  position: relative;
 }
-.input-search {
+.cari-bahasan {
   border-radius: 40px;
   border: 1px solid #000;
   background: #fff;
@@ -110,7 +111,7 @@ nav {
   padding: 0 10px;
 }
 .btn-forum {
-  margin-left: -13px;
+  margin-left: -11px;
   color: #fff;
   text-align: center;
   font-family: Poppins;
@@ -137,57 +138,171 @@ nav {
   background: none;
   border: none;
   position: relative;
-  right: 3.5%;
+  top: 51.8%;
+  right: 3%;
   cursor: pointer;
-  box-shadow: none;
 }
-.forum-container {
+.btn-imunisasi {
+  padding: 7px 20px;
+  background-color: #720dee;
+  border-radius: 40px;
+  color: #fff;
+}
+
+.user-container,
+.user-left,
+.option,
+.option-right-icon {
   display: flex;
-  width: 270px;
-  height: 300px;
-  margin-bottom: 100px;
-  gap: 50px;
 }
-.card-judul {
+.topik-forum {
+  margin-bottom: 66px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.topik-left {
+  border-bottom: 1px solid #000;
+  width: 740px;
+}
+.user-left {
+  gap: 10px;
+  margin-right: 415px;
+}
+.user-container {
+  margin-bottom: 60px;
+}
+.comment {
+  width: 745px;
+  margin-bottom: 45px;
+  color: #000;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.option-left {
+  margin-right: 447px;
+}
+.p-option {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.option-right-icon {
+  gap: 7px;
+}
+.commen-area {
+  width: 725px;
+  height: 234px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: var(--2, #f5f8fb);
+  padding: 23px 18px;
+}
+.text-comment {
+  width: 700px;
+  height: 82px;
+  text-align: left;
+  float: left;
+  padding: 0 10px;
+  border-radius: 0;
+}
+.fa-envelope {
+  font-size: 27px;
+}
+.send {
+  padding: 7px 25px;
+  background-color: #720dee;
+  border-radius: 40px;
+  color: #fff;
+  position: absolute;
+  left: 51%;
+  top: 145%;
+}
+.user-left-bottom {
+  display: flex;
+  gap: 10px;
+  line-height: normal;
+  border-right: 1px solid #000;
+  width: 300px;
+}
+.user-right-bottom {
+  margin-left: 70px;
+  margin-top: 26px;
+}
+.user-area {
+  display: flex;
+}
+.name {
   color: #000;
   font-family: Poppins;
   font-size: 18px;
+  font-style: normal;
   font-weight: 600;
-  width: 252px;
-  padding: 5px 20px;
 }
-.forum-cardIsi {
+.user-comment {
+  margin-top: 30px;
+  width: 725px;
+  height: 164px;
+  font-size: 15px;
+  text-align: justify;
+}
+.btn-user-comment {
+  margin-left: 630px;
+  margin-bottom: 60px;
+}
+.btn-comment {
+  margin-right: 10px;
+  color: var(--Primary, #ee0d51);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.forumtopik-container {
   display: flex;
-  padding: 15px 20px;
+  margin-bottom: 98px;
 }
-.card-desc {
-  margin-left: 10px;
+.topik-right {
+  padding: 95px 50px;
+}
+.title-right {
+  width: 340px;
+  border-bottom: 1px solid #000;
+  height: 50px;
   color: #000;
   font-family: Poppins;
-  font-size: 14px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
-.card-link-tgl {
-  display: block;
-  margin-top: 1px;
-}
-a.card-link {
-  text-decoration: underline;
-  color: #077bcf;
-  font-family: Poppins;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.dari {
+.question-section {
   display: flex;
-  gap: 4px;
+  margin-top: 20px;
+  gap: 23px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 340px;
+  padding: 5px 0;
 }
-.from {
-  color: #b8b8b8;
+.question {
+  border-bottom: 1px solid #000;
+  height: 65px;
 }
 /* end isi */
 

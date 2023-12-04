@@ -15,7 +15,15 @@ import "./styles/DetailsArticlePage.css";
 import Nutrition from "./pages/Nutrition";
 import "./styles/NutritionRecommend.css";
 import Forum from "./pages/forum";
-import "./styles/Forum.css";
+import "./styles/ForumPage.css";
+import DetailForum from "./pages/DetailForum";
+import "./styles/DetailsForumPage.css";
+import CreateForum from "./pages/CreateForum";
+import "./styles/CreateForumPage.css";
+import Profil from "./pages/Profil";
+import "./styles/ProfilPage.css";
+import Application from "./pages/Application";
+import "./styles/ApplicationPage.css";
 
 function App() {
   return (
@@ -26,8 +34,12 @@ function App() {
       <Route path="/signup" element={<SignUpPage />} />
       <Route path="/articles" element={<ArticlesPage />} />
       <Route path="/forum" element={<Forum />} />
+      <Route path="/detailforum" element={<DetailForum />} />
+      <Route path="/createforum" element={<CreateForum />} />
       <Route path="/Nutrition" element={<Nutrition />} />
       <Route path="/articles/:title" element={<DetailsArticles />} />
+      <Route path="/profil" element={<Profil />} />
+      <Route path="/application" element={<Application />} />
     </Routes>
   );
 }
