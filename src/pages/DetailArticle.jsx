@@ -2,14 +2,13 @@ import "../styles/DetailArticlePage.css";
 import { useParams } from "react-router-dom";
 import { articlesArray } from "../utils/data";
 import BreadCrumb from "../components/BreadCrumb";
-import titleToSlug from "../utils/titleToSlugs";
 import RelatedArticleCard from "../components/ArticleDetail/RelatedArticleCard";
 import Layout from "../components/Layout";
 
 function DetailArticlePage() {
   const { id, slug } = useParams();
 
-  const article = articlesArray.find((article) => titleToSlug(article.id) === id)
+  const article = articlesArray.find((article) => article.id == id)
 
   return (
     <Layout>

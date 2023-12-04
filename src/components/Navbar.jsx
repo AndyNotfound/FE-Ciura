@@ -40,7 +40,9 @@ function Navbar() {
         </ul>
         <div className="button-navbar">
           {login ? (
-            <img src="/profil-img.svg" alt="" />
+            <Link to={"/profiles/test"}>
+              <img src="/profil-img.svg" alt="" />
+            </Link>
           ) : (
             <>
               <button className="btn-navbar" onClick={() => navigate("/login")}>

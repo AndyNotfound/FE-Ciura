@@ -2,7 +2,7 @@ import "../styles/ArticleListPage.css";
 import Layout from "../components/Layout";
 import BreadCrumb from '../components/BreadCrumb'
 import ArticleCard from '../components/ArticleCard'
-import HighlightedArticles from '../components/Articles/HighlightedArticles'
+import HighlightedArticle from '../components/Articles/HighlightedArticle'
 import { articlesArray } from '../utils/data'
 
 function ArticleListPage() {
@@ -14,7 +14,7 @@ function ArticleListPage() {
                     { path: "/articles", name: "Artikel" }
                 ]}
             />
-            <HighlightedArticles
+            <HighlightedArticle
                 id={articlesArray[0]?.id}
                 thumbnail={articlesArray[0]?.thumbnail}
                 title={articlesArray[0]?.title}

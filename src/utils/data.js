@@ -274,60 +274,80 @@ const avoidArray = [
     thumbnail: "/rekomendasi-img3.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 2,
     thumbnail: "/rekomendasi-img4.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 3,
     thumbnail: "/rekomendasi-img5.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 4,
     thumbnail: "/rekomendasi-img6.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 5,
     thumbnail: "/rekomendasi-img7.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 6,
     thumbnail: "/rekomendasi-img8.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 7,
     thumbnail: "/rekomendasi-img9.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 8,
     thumbnail: "/rekomendasi-img10.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 9,
     thumbnail: "/rekomendasi-img11.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 10,
     thumbnail: "/rekomendasi-img12.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
 ];
 
@@ -337,73 +357,103 @@ const recomendationArray = [
     thumbnail: "/rekomendasi-img13.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 12,
     thumbnail: "/rekomendasi-img14.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 13,
     thumbnail: "/rekomendasi-img15.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 14,
     thumbnail: "/rekomendasi-img16.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 15,
     thumbnail: "/rekomendasi-img17.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 16,
     thumbnail: "/rekomendasi-img18.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 17,
     thumbnail: "/rekomendasi-img19.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 18,
     thumbnail: "/rekomendasi-img20.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 19,
     thumbnail: "/rekomendasi-img21.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 20,
     thumbnail: "/rekomendasi-img22.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 21,
     thumbnail: "/rekomendasi-img23.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
   {
     id: 22,
     thumbnail: "/rekomendasi-img24.png",
     title: "Judul",
     desc: "Isi teks atau konten lainnya...",
+    information:
+      "Menambahkan zat besi pada bayam berperan untuk pembentukan hemoglobin. Bayam hijau memiliki banyak manfaat yang sangat baik karena merupakan sumber kalsium, vitamin A, Vitamin C, dan Vitamin E, serat dan juga betakaroten. Selain itu bayam juga memiliki kandungan zat besi yang sangat tinggi untuk mencegah anemia.",
   },
 ];
 
-export { articlesArray, faqArray, forumQuestion, recomendationArray, avoidArray };
+export {
+  articlesArray,
+  faqArray,
+  forumQuestion,
+  recomendationArray,
+  avoidArray,
+};

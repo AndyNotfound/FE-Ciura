@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { forumQuestion } from "../utils/data";
 import CommentSection from "../components/ForumDetail/CommentSection";
 import Layout from "../components/Layout";
-import "../styles/DetailsForumPage.css";
+import "../styles/DetailForumPage.css";
 import RelatedQuestionItem from "../components/ForumDetail/RelatedQuestionItem";
 
 function DetailForumPage() {
