@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import { Link } from "react-router-dom";
 import titleToSlug from "../utils/titleToSlugs";
 
@@ -20,6 +21,13 @@ function ArticleCard({ thumbnail, title, desc, postDate }) {
       </div>
     </div>
   );
+}
+
+ArticleCard.propTypes = {
+  thumbnail: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  desc: PropTypes.string.isRequired,
+  postDate: PropTypes.string.isRequired
 }
 
 export default ArticleCard;

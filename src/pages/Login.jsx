@@ -1,14 +1,12 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import '../styles/LoginPage.css'
 import LoginForm from "../components/Login/LoginForm";
+import Layout from '../components/Layout';
 
 function LoginPage() {
   return (
-    <>
-      <Navbar />
+    <Layout>
       <LoginForm />
-      <Footer />
-    </>
+    </Layout>
   );
 }
 

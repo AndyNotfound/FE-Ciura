@@ -1,16 +1,14 @@
+import "../styles/ForumPage.css";
+import Layout from "../components/Layout";
 import BreadCrumb from "../components/BreadCrumb";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import Forum from "../components/forum";
 
 function ForumPage() {
   return (
-    <>
-      <Navbar />
+    <Layout>
       <BreadCrumb />
       <Forum />
-      <Footer />
-    </>
+    </Layout>
   );
 }
 

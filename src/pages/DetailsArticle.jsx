@@ -1,13 +1,13 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import "../styles/DetailsArticlePage.css";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-import articlesArray from "../utils/data";
+import { articlesArray } from "../utils/data";
 import BreadCrumb from "../components/BreadCrumb";
 import titleToSlug from "../utils/titleToSlugs";
 import RelatedArticleCard from "../components/ArticleDetail/RelatedArticleCard";
+import Layout from "../components/Layout";
 
-function DetailsArticle() {
+function DetailsArticlePage() {
   const { title } = useParams();
   const [article, setArticle] = useState(undefined);
 
@@ -17,8 +17,7 @@ function DetailsArticle() {
   }, [title]);
 
   return (
-    <>
-      <Navbar />
+    <Layout>
       <div className="isi">
         <BreadCrumb />
         <h1>{article?.title}</h1>
@@ -89,9 +88,8 @@ function DetailsArticle() {
           </div>
         </div>
       </div>
-      <Footer />
-    </>
+    </Layout>
   );
 }
 
-export default DetailsArticle;
+export default DetailsArticlePage;

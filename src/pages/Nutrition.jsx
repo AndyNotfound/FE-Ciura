@@ -1,16 +1,14 @@
+import "../styles/NutritionPage.css";
 import BreadCrumb from "../components/BreadCrumb";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import Nutrition from "../components/NutritionRecommend";
+import Layout from "../components/Layout";
 
 function NutritionPage() {
   return (
-    <>
-      <Navbar />
+    <Layout>
       <BreadCrumb />
       <Nutrition />
-      <Footer />
-    </>
+    </Layout>
   );
 }
 
