@@ -1,0 +1,25 @@
+video .video-react-video {
+  width: 542px;
+  height: 304px;
+  position: absolute;
+  display: flex;
+}
+
+.video-react-control-text {
+  display: none;
+}
+.video-react-play-control {
+  display: none;
+}
+.video-react-button {
+  display: none;
+}
+.video-react-duration,
+span,
+.video-react-current-time-display {
+  display: none;
+}
+.p1,
+.p2 {
+  display: inline;
+}
