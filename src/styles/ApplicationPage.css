@@ -1,0 +1,45 @@
+.hero-desc {
+  margin-bottom: 25px;
+}
+.fitur-section {
+  padding: 22px 10px;
+}
+.fitur {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+}
+.app-img2 {
+  width: 400px;
+}
+.app-img1 {
+  width: 600px;
+}
+.app-img3 {
+  width: 395px;
+}
+
+.fitur-nutrisi,
+.fitur-pengingat {
+  width: 1150px;
+  margin-left: 150px;
+}
+.title-fitur {
+  color: #333;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.judul-fitur3 {
+  margin-left: 50px;
+  width: 550px;
+}
+.judul-fitur2 {
+  padding-right: 100px;
+  width: 650px;
+}
+.judul-fitur {
+  width: 550px;
+}

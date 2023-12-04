@@ -3,7 +3,7 @@ function Forum() {
     <div className="forum-section">
       <div className="forum-judul">Forum</div>
       <div className="search">
-        <input type="search" placeholder="Cari bahasan di sini" />
+        <input className="input-search" type="search" placeholder="Cari bahasan di sini" />
         <button className="search-icon" type="submit">
           <img src="/search-img.svg" alt="" />
         </button>
