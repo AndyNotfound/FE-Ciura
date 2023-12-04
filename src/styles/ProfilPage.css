@@ -1,0 +1,94 @@
+.menu-section {
+  padding: 55px 75px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background: rgba(217, 217, 217, 0.1);
+  width: 385px;
+  height: 600px;
+  flex-shrink: 0;
+}
+.profilpage-section {
+  display: flex;
+  gap: 50px;
+}
+.menu-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.menu {
+  display: flex;
+  cursor: pointer;
+  gap: 10px;
+  width: 279px;
+  height: 40px;
+  flex-shrink: 0;
+  padding: 5px 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  align-items: center;
+}
+.menu:hover {
+  border-radius: 8px;
+  background: #720dee;
+  color: #fff;
+}
+.img-menu-user {
+  width: 50px;
+}
+
+.fa-brands {
+  font-size: 25px;
+}
+.profilepicture-section {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0;
+  gap: 30px;
+}
+.menuprofile-section {
+  display: flex;
+  gap: 43px;
+}
+.edit-akun-section {
+  padding: 60px 0;
+}
+.judul-edit {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.input-edit-name {
+  border-radius: 15px;
+  background: #f5f8fb;
+  width: 689px;
+  height: 51px;
+  outline: none;
+  border: none;
+  padding: 13px 20px;
+}
+.change-img {
+  border-radius: 12px;
+  background: #7d22ed;
+  display: flex;
+  width: 158px;
+  padding: 6px 32px;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.icon-edit {
+  position: relative;
+  right: 35px;
+  top: 5px;
+  cursor: pointer;
+}

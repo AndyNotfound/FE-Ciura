@@ -206,7 +206,7 @@ nav {
   flex-shrink: 0;
   border-radius: 10px;
   background: var(--2, #f5f8fb);
-  padding: 23px 18px;
+  padding: 23px 10px;
 }
 .text-comment {
   width: 700px;
@@ -225,8 +225,8 @@ nav {
   border-radius: 40px;
   color: #fff;
   position: absolute;
-  left: 51%;
-  top: 145%;
+  left: 50.5%;
+  top: 110%;
 }
 .user-left-bottom {
   display: flex;

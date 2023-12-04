@@ -13,7 +13,7 @@ function application() {
           </div>
         </div>
         <div className="container-right">
-          <img className="showcase" src="/woman-cloud.png" alt="" />
+          <Player playsInline poster="/Ciura_App_Video_Showcase.mp4" src="/Ciura_App_Video_Showcase.mp4" />
         </div>
       </section>
       <section className="fitur-section">
