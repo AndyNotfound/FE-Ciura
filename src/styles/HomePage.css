@@ -262,18 +262,7 @@ span .kami {
 .p-kami p {
   margin-bottom: 20px;
 }
-.img-kami {
-  z-index: 2;
-  position: absolute;
-  top: 265%;
-}
-.vector2 {
-  position: relative;
-  top: 3%;
-  width: 300px;
-  background-blend-mode: darken;
-  z-index: 1;
-}
+
 /* end tentang kami */
 
 /* artikel */

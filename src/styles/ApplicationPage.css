@@ -18,6 +18,13 @@
 .app-img3 {
   width: 395px;
 }
+.video-react-video {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  bottom: 70px;
+  display: flex;
+}
 
 .fitur-nutrisi,
 .fitur-pengingat {
