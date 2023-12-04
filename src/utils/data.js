@@ -101,4 +101,171 @@ const faqArray = [
   },
 ];
 
-export {articlesArray, faqArray};
+const forumQuestion = [
+  {
+    id: 1,
+    author: "Rimuru Tempest",
+    link: "/",
+    authorProfilePicture: "/profil-forum.svg",
+    title: "Apa saja ciri - ciri anemia pada remaja?",
+    thumbnail: "/forum-img.png",
+    postedDate: "22 November 2023",
+    question:
+      "Saya seorang guru SMA, ada salah satu anak murid saya dia perempuan usia 17 th. di kelar sering terlihat lemas, pucat, loyo kaya gada tenaga serta dia juga beberapa kali minta ijin untuk ke UKS karena pusing. Apakah siswa tersebut mengalami ciri-ciri gejala penyakit anemia?",
+    comments: [
+      {
+        id: 1,
+        author: "Ramiris",
+        authorProfilePicture: "/profil-forum.svg",
+        postedDate: "23 November 2023",
+        like: 2,
+        comment: "Aku juga gatau anjir",
+      },
+    ],
+    relatedQuestion: [
+      {
+        id: 1,
+        title: "Bagaimana cara mencegah Anemia?",
+        authorProfilePicture: "/profil-forum.svg",
+        link: "/",
+      },
+      {
+        id: 2,
+        title: "Bagaimana cara mencegah Anemia?",
+        authorProfilePicture: "/profil-forum.svg",
+        link: "/",
+      },
+      {
+        id: 3,
+        title: "Bagaimana cara mencegah Anemia?",
+        authorProfilePicture: "/profil-forum.svg",
+        link: "/",
+      },
+    ],
+  },
+  {
+    id: 2,
+    author: "Diablo",
+    link: "/",
+    authorProfilePicture: "/profil-forum.svg",
+    title: "Bagaimana cara mencegah mati kena Anemia ngoding?",
+    thumbnail: "/forum-img.png",
+    postedDate: "22 November 2023",
+    question:
+      "Jadi saya baru mengetahui tentang anemia setelah tetangga saya mengalami Anemia, apa yang dapat saya lakukan untuk mencegah terjadi nya anemia?",
+    comments: [
+      {
+        id: 1,
+        author: "Ramiris",
+        authorProfilePicture: "/profil-forum.svg",
+        postedDate: "23 November 2023",
+        like: 2,
+        comment: "Aku juga gatau anjir",
+      },
+    ],
+    relatedQuestion: [
+      {
+        id: 1,
+        title: "Apa saja ciri - ciri anemia pada remaja?",
+        authorProfilePicture: "/profil-forum.svg",
+        link: "/",
+      },
+      {
+        id: 2,
+        title: "Apa saja ciri - ciri anemia pada remaja?",
+        authorProfilePicture: "/profil-forum.svg",
+        link: "/",
+      },
+      {
+        id: 3,
+        title: "Apa saja ciri - ciri anemia pada remaja?",
+        authorProfilePicture: "/profil-forum.svg",
+        link: "/",
+      },
+    ],
+  },
+  {
+    id: 3,
+    author: "Diablo",
+    link: "/",
+    authorProfilePicture: "/profil-forum.svg",
+    title: "Bagaimana cara mencegah mati kena Anemia ngoding?",
+    thumbnail: "/forum-img.png",
+    postedDate: "22 November 2023",
+    question:
+      "Jadi saya baru mengetahui tentang anemia setelah tetangga saya mengalami Anemia, apa yang dapat saya lakukan untuk mencegah terjadi nya anemia?",
+    comments: [
+      {
+        id: 1,
+        author: "Ramiris",
+        authorProfilePicture: "/profil-forum.svg",
+        postedDate: "23 November 2023",
+        like: 2,
+        comment: "Aku juga gatau anjir",
+      },
+    ],
+    relatedQuestion: [
+      {
+        id: 1,
+        title: "Apa saja ciri - ciri anemia pada remaja?",
+        authorProfilePicture: "/profil-forum.svg",
+        link: "/",
+      },
+      {
+        id: 2,
+        title: "Apa saja ciri - ciri anemia pada remaja?",
+        authorProfilePicture: "/profil-forum.svg",
+        link: "/",
+      },
+      {
+        id: 3,
+        title: "Apa saja ciri - ciri anemia pada remaja?",
+        authorProfilePicture: "/profil-forum.svg",
+        link: "/",
+      },
+    ],
+  },
+  {
+    id: 4,
+    author: "Johny Sins",
+    link: "/",
+    authorProfilePicture: "/profil-forum.svg",
+    title: "Apa saja ciri - ciri anemia pada remaja?",
+    thumbnail: "/forum-img.png",
+    postedDate: "22 November 2023",
+    question:
+      "Jadi saya baru mengetahui tentang anemia setelah tetangga saya mengalami Anemia, apa yang dapat saya lakukan untuk mencegah terjadi nya anemia?",
+    comments: [
+      {
+        id: 1,
+        author: "Ramiris",
+        authorProfilePicture: "/profil-forum.svg",
+        postedDate: "23 November 2023",
+        like: 2,
+        comment: "Aku juga gatau anjir",
+      },
+    ],
+    relatedQuestion: [
+      {
+        id: 1,
+        title: "Apa saja ciri - ciri anemia pada remaja?",
+        authorProfilePicture: "/profil-forum.svg",
+        link: "/",
+      },
+      {
+        id: 2,
+        title: "Apa saja ciri - ciri anemia pada remaja?",
+        authorProfilePicture: "/profil-forum.svg",
+        link: "/",
+      },
+      {
+        id: 3,
+        title: "Apa saja ciri - ciri anemia pada remaja?",
+        authorProfilePicture: "/profil-forum.svg",
+        link: "/",
+      },
+    ],
+  },
+];
+
+export { articlesArray, faqArray, forumQuestion };

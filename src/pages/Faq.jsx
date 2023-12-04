@@ -7,7 +7,12 @@ import Layout from "../components/Layout";
 function FaqPage() {
     return (
         <Layout>
-            <BreadCrumb />
+            <BreadCrumb 
+                list={[
+                    {path: "/", name: "Beranda"},
+                    {path: "/faq", name: "Cek gejala"}
+                ]}
+            />
             <h1 className="faq-header">
                 Informasi Anemia
             </h1>

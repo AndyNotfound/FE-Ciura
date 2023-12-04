@@ -8,18 +8,24 @@ import RelatedArticleCard from "../components/ArticleDetail/RelatedArticleCard";
 import Layout from "../components/Layout";
 
 function DetailsArticlePage() {
-  const { title } = useParams();
+  const { id, slug } = useParams();
   const [article, setArticle] = useState(undefined);
 
   useEffect(() => {
-    const filteredArticles = articlesArray.find((article) => titleToSlug(article.title) == title)
+    const filteredArticles = articlesArray.find((article) => titleToSlug(article.id) === id)
     setArticle(filteredArticles)
-  }, [title]);
+  }, [id]);
 
   return (
     <Layout>
       <div className="isi">
-        <BreadCrumb />
+        <BreadCrumb
+          list={[
+            { path: "/", name: "Beranda" },
+            { path: "/articles", name: "Artikel" },
+            { path: `/articles/${id}/${slug}`, name: article?.title }
+          ]}
+        />
         <h1>{article?.title}</h1>
         <div className="container-datails-article">
           <div className="detailleft-container">

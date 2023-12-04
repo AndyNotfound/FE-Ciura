@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import { Link } from "react-router-dom";
 import titleToSlug from "../utils/titleToSlugs";
 
-function ArticleCard({ thumbnail, title, desc, postDate }) {
+function ArticleCard({ id, thumbnail, title, desc, postDate }) {
   return (
     <div className="kotak-Artikel">
       <img src={thumbnail} alt="" />
@@ -14,7 +14,7 @@ function ArticleCard({ thumbnail, title, desc, postDate }) {
             <p>{postDate}</p>
           </div>
 
-          <Link className="detailbtn-baca" to={`/articles/${titleToSlug(title)}`}>
+          <Link className="detailbtn-baca" to={`/articles/${id}/${titleToSlug(title)}`}>
             Baca
           </Link>
         </div>
@@ -24,6 +24,7 @@ function ArticleCard({ thumbnail, title, desc, postDate }) {
 }
 
 ArticleCard.propTypes = {
+  id: PropTypes.number.isRequired,
   thumbnail: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   desc: PropTypes.string.isRequired,

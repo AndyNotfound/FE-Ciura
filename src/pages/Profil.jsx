@@ -1,16 +1,13 @@
-import BreadCrumb from "../components/BreadCrumb";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Menu from "../components/menu";
+import Layout from "../components/Layout";
+import "../styles/ProfilPage.css";
+import SideMenu from "../components/Sidemenu";
 
-function ForumPage() {
+function ProfilePage() {
   return (
-    <>
-      <Navbar />
-      <Menu />
-      <Footer />
-    </>
+    <Layout>
+      <SideMenu />
+    </Layout>
   );
 }
 
-export default ForumPage;
+export default ProfilePage;

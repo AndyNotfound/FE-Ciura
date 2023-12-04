@@ -6,7 +6,12 @@ import Layout from "../components/Layout";
 function NutritionPage() {
   return (
     <Layout>
-      <BreadCrumb />
+      <BreadCrumb
+        list={[
+          { path: "/", name: "Beranda" },
+          { path: "/nutrition", name: "Nutrisi" }
+        ]}
+      />
       <Nutrition />
     </Layout>
   );

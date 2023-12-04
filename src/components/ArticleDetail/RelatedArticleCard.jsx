@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types'
 import titleToSlug from "../../utils/titleToSlugs";
 
-function RelatedArticleCard({ title, desc, postDate }) {
+function RelatedArticleCard({ id, title, desc, postDate }) {
   return (
     <div className="detailbaca-container">
       <div className="isian">
@@ -13,12 +14,19 @@ function RelatedArticleCard({ title, desc, postDate }) {
 
         <img className="detailbtn-save" src="/save-img.svg" alt="" />
 
-        <Link className="btn-bacaArticle" to={`/articles/${titleToSlug(title)}`}>
+        <Link className="btn-bacaArticle" to={`/articles/${id}/${titleToSlug(title)}`}>
           Baca
         </Link>
       </div>
     </div>
   );
+}
+
+RelatedArticleCard.propTypes = {
+  id: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  desc: PropTypes.string.isRequired,
+  postDate: PropTypes.string.isRequired
 }
 
 export default RelatedArticleCard;

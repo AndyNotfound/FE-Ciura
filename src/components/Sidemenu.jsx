@@ -1,6 +1,6 @@
 import { FaArrowRight, FaBookOpen, FaComments, FaQuestionCircle, FaUser } from "react-icons/fa";
 
-function menu() {
+function SideMenu() {
   return (
     <>
       <div className="menu-section">
@@ -32,4 +32,4 @@ function menu() {
     </>
   );
 }
-export default menu;
+export default SideMenu;
