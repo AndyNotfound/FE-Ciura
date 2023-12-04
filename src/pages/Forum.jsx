@@ -1,10 +1,10 @@
-import "../styles/ForumPage.css";
+import "../styles/ForumListPage.css";
 import Layout from "../components/Layout";
 import BreadCrumb from "../components/BreadCrumb";
 import { forumQuestion } from "../utils/data";
 import ForumCard from "../components/Forum/ForumCard";
 
-function ForumPage() {
+function ForumListPage() {
   return (
     <Layout>
       <BreadCrumb
@@ -45,4 +45,4 @@ function ForumPage() {
   );
 }
 
-export default ForumPage;
+export default ForumListPage;

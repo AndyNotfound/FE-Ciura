@@ -6,7 +6,7 @@ function RelatedQuestionItem({ id, title, authorProfilePicture }) {
     return (
         <div className="question-section">
             <img src={authorProfilePicture} alt="" />
-            <Link to={`/forum/${id}/${titleToSlug(title)}`} className="question">{title}</Link>
+            <Link to={`/forums/${id}/${titleToSlug(title)}`} className="question">{title}</Link>
         </div>
     )
 }

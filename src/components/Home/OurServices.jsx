@@ -13,9 +13,9 @@ function OurServicesSection() {
           </Link>
         </div>
         <div className="kotak-layanan">
-          <h1>layanan</h1>
+          <h1>Artikel</h1>
           <p className="p-layanan">Lorem ipsum dolor sit amet consectetur. Sit quam tortor ornare eget et nisl dolor fames tellus.</p>
-          <Link className="btn-layanan" to={"/"}>
+          <Link className="btn-layanan" to={"/articles"}>
             Pergi
           </Link>
         </div>

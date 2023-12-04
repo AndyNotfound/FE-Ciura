@@ -4,7 +4,7 @@ import { NavLink, useNavigate, Link } from "react-router-dom";
 function Navbar() {
   const navigate = useNavigate();
   // MOCKING USER LOGGED IN STATE
-  const [login, setLogin] = useState(false);
+  const [login, setLogin] = useState(true);
   return (
     <nav>
       <div className="navbar">
@@ -14,26 +14,26 @@ function Navbar() {
         <ul>
           <li>
             <NavLink to="/" className={({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")}>
-              Home
+              Beranda
             </NavLink>
           </li>
           <li>
             <NavLink to="/articles" className={({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")}>
-              Articles
+              Artikel
             </NavLink>
           </li>
           <li>
             <NavLink to="/application" className={({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")}>
-              Application
+              Aplikasi
             </NavLink>
           </li>
           <li>
             <NavLink to="/nutrition" className={({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")}>
-              Nutrition
+              Nutrisi
             </NavLink>
           </li>
           <li>
-            <NavLink to="/forum" className={({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")}>
+            <NavLink to="/forums" className={({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")}>
               Forum
             </NavLink>
           </li>

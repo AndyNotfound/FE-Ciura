@@ -7,7 +7,7 @@ function ForumCard({ id, thumbnail, title, author, authorProfilePicture, postedD
         <div className="forum-card">
             <img src={thumbnail} alt="" />
             <div className="card-judul">
-                <Link to={`/forum/${id}/${titleToSlug(title)}`}>{title}</Link>
+                <Link to={`/forums/${id}/${titleToSlug(title)}`}>{title}</Link>
             </div>
             <div className="forum-cardIsi">
                 <img src={authorProfilePicture} alt="" />
