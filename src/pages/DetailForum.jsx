@@ -18,7 +18,7 @@ function DetailForumPage() {
         list={[
           { path: "/", name: "Beranda" },
           { path: "/forums", name: "Forum" },
-          { path: `/forums/${id}/${slug}`, name: topic?.title }
+          { path: `/forums/${id}/${slug}`, name: topic?.title },
         ]}
       />
       <div className="forum-section">
