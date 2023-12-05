@@ -6,6 +6,7 @@ import HighlightedArticle from '../components/Articles/HighlightedArticle'
 import { articlesArray } from '../utils/data'
 
 function ArticleListPage() {
+
     return (
         <Layout>
             <BreadCrumb

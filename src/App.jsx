@@ -10,10 +10,13 @@ import NutritionListPage from "./pages/Nutrition";
 import ForumListPage from "./pages/Forum";
 import DetailForum from "./pages/DetailForum";
 import CreateForum from "./pages/CreateForum";
-import ProfilePage from "./pages/Profil";
+import ProfilePage from "./pages/Profile";
 import Application from "./pages/Application";
-import useScrollToTop from "./hooks/useScrollToTop";
+import useScrollToTop from "./helpers/hooks/useScrollToTop";
 import DetailNutritionPage from "./pages/DetailNutrition";
+import ProfileArticleListPage from "./pages/ProfileArticle";
+import ProfileForumListPage from "./pages/ProfileForum";
+import ProfileHelpListPage from "./pages/ProfileHelp";
 
 function App() {
   useScrollToTop();
@@ -32,6 +35,9 @@ function App() {
       <Route path="/forums/:id/:slug" element={<DetailForum />} />
       <Route path="/forums/new" element={<CreateForum />} />
       <Route path="/profiles/:username" element={<ProfilePage />} />
+      <Route path="/profiles/:username/articles" element={<ProfileArticleListPage />} />
+      <Route path="/profiles/:username/forums" element={<ProfileForumListPage />} />
+      <Route path="/profiles/help" element={<ProfileHelpListPage />} />
     </Routes>
   );
 }

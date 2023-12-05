@@ -92,3 +92,8 @@
   top: 5px;
   cursor: pointer;
 }
+
+.profile-layout {
+  display: flex;
+  gap: 40px;
+}
