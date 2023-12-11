@@ -520,7 +520,6 @@ li a {
   border: 1px solid rgba(0, 0, 0, 0.3);
   background: rgba(217, 217, 217, 0.1);
   width: 385px;
-  height: 600px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
@@ -552,7 +551,11 @@ li a {
 }
 .menu-item > li > a.active {
   color: white;
-  background-color: #583bb6;
+  background-color: #720dee;
+}
+.menu-item > li > a.inactive {
+  color: black;
+  background-color: unset;
 }
 .img-menu-user {
   width: 50px;

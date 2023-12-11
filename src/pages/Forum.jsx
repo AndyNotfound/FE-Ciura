@@ -1,10 +1,23 @@
 import "../styles/ForumListPage.css";
 import Layout from "../components/Layout";
 import BreadCrumb from "../components/BreadCrumb";
-import { forumQuestion } from "../utils/data";
 import ForumCard from "../components/Forum/ForumCard";
+import { forumArray } from "../utils/data";
+// import useAsync from "../helpers/hooks/useAsync";
+// import fetchData from "../helpers/fetch";
+// import { useEffect } from "react";
 
 function ForumListPage() {
+  // const { data, run, isLoading, isSuccess } = useAsync({
+  //   data: { username: "Hello" },
+  // });
+
+  // useEffect(() => {
+  //   run(
+  //     fetchData({ url: "/api/forums" }),
+  //   );
+  // }, [run]);
+
   return (
     <Layout>
       <BreadCrumb
@@ -25,7 +38,30 @@ function ForumListPage() {
           </a>
         </div>
         <div className="forum-container">
-          {forumQuestion?.map((item, index) => {
+          {/* {
+            isLoading ?
+              <h1>Loading</h1>
+              : isSuccess ?
+                <>
+                  {data.forums?.map((item, index) => {
+                    const { id, thumbnail, title, author, authorProfilePicture, postedDate } = item;
+                    return (
+                      <ForumCard
+                        key={index}
+                        id={id}
+                        thumbnail={thumbnail}
+                        author={author}
+                        authorProfilePicture={authorProfilePicture}
+                        title={title}
+                        postedDate={postedDate}
+                      />
+                    )
+                  })}
+                </>
+                :
+                ""
+          } */}
+          {forumArray?.map((item, index) => {
             const { id, thumbnail, title, author, authorProfilePicture, postedDate } = item;
             return (
               <ForumCard

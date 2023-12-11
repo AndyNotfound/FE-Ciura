@@ -6,7 +6,7 @@ function SideMenu() {
   return (
     <div className="menu-section">
       <div className=" menu-user">
-        <img className="img-menu-user" src="/profil-img.svg" alt="" />
+        <img className="img-menu-user" src="/profil-img.svg" alt="inactive" />
         <p>{username}</p>
       </div>
       <ul className="menu-item">
@@ -14,7 +14,7 @@ function SideMenu() {
           <NavLink
             to={`/profiles/${username}`}
             className={
-              ({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")
+              ({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "inactive")
             }
           >
             <FaUser className="fa-brands" />
@@ -24,8 +24,9 @@ function SideMenu() {
         <li>
           <NavLink
             to={`/profiles/${username}/articles`}
+
             className={
-              ({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")
+              ({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "inactive")
             }
           >
             <FaBookOpen className="fa-brands" />
@@ -34,9 +35,9 @@ function SideMenu() {
         </li>
         <li>
           <NavLink
-            to={`/profiles/${username}/forum`}
+            to={`/profiles/${username}/forums`}
             className={
-              ({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")
+              ({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "inactive")
             }
           >
             <FaComments className="fa-brands" />
@@ -45,9 +46,9 @@ function SideMenu() {
         </li>
         <li>
           <NavLink
-            to={`/help`}
+            to={`/profiles/help`}
             className={
-              ({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "")
+              ({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "inactive")
             }
           >
             <FaQuestionCircle className="fa-brands" />

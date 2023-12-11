@@ -1,0 +1,18 @@
+.saved-article {
+  margin: 50px 40px;
+}
+
+.saved-article > h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.saved-article__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}

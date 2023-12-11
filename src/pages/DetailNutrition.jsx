@@ -8,7 +8,8 @@ import '../styles/DetailNutritionPage.css'
 function DetailNutritionPage() {
     const { id } = useParams();
 
-    const nutrition = recomendationArray.find((item) => item.id == id) || avoidArray.find((item) => item.id == id)
+    const nutrition = recomendationArray.find((item) => item.id == id)
+        || avoidArray.find((item) => item.id == id)
 
     return (
         <Layout>
