@@ -34,6 +34,10 @@
   background: #720dee;
   color: #fff;
 }
+.menuprofile-section {
+  display: flex;
+  gap: 30px;
+}
 .img-menu-user {
   width: 50px;
 }
@@ -42,17 +46,20 @@
   font-size: 25px;
 }
 .profilepicture-section {
-  display: flex;
-  flex-direction: column;
+  display: block;
   padding: 60px 0;
   gap: 30px;
 }
-.menuprofile-section {
-  display: flex;
-  gap: 43px;
+.ganti-img {
+  margin-left: 30px;
+  width: 100px;
 }
+
 .edit-akun-section {
   padding: 60px 0;
+}
+.artikel-akun-section {
+  padding: 30px 0;
 }
 .judul-edit {
   color: #000;
@@ -61,6 +68,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-top: 15px;
 }
 .input-edit-name {
   border-radius: 15px;

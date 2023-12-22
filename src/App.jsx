@@ -35,8 +35,8 @@ function App() {
       <Route path="/forums/:id/:slug" element={<DetailForum />} />
       <Route path="/forums/new" element={<CreateForum />} />
       <Route path="/profiles/:username" element={<ProfilePage />} />
-      <Route path="/profiles/:username/articles" element={<ProfileArticleListPage />} />
-      <Route path="/profiles/:username/forums" element={<ProfileForumListPage />} />
+      <Route path="/profiles/articles" element={<ProfileArticleListPage />} />
+      <Route path="/profiles/forums" element={<ProfileForumListPage />} />
       <Route path="/profiles/help" element={<ProfileHelpListPage />} />
     </Routes>
   );

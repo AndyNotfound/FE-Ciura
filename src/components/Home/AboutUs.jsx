@@ -9,13 +9,10 @@ function AboutUsSection() {
           </h1>
           <div className="p-kami">
             <p>
-              Lorem ipsum dolor sit amet consectetur. Amet leo nulla aliquet aliquam semper ac non. Ultrices volutpat cras dignissim pellentesque bibendum urna pellentesque eu. Sed lectus ut lectus
-              sit sit dictum. Volutpat egestas etiam arcu risus elit tristique dui egestas cras. Aenean arcu tincidunt sed pharetra ornare nisi. Nisi a egestas nec porttitor amet.
+              Selamat datang di ciura ! Teman setia Anda dalam perjalanan kesehatan! Kami dengan bangga mempersembahkan solusi inovatif kami untuk membantu Anda mengelola kondisi anemia dengan lebih
+              mudah dan efektif.
             </p>
-            <p>
-              Turpis pharetra amet justo cras aliquam morbi sed neque dignissim. Lacus lectus pellentesque lacus lectus sed netus mattis nibh nulla. Sed pellentesque nisl enim congue turpis
-              suspendisse. Id pulvinar metus pellentesque diam ipsum quis eget cursus.
-            </p>
+            <p>Aplikasi kami didesain dengan antarmuka yang ramah pengguna, memastikan bahwa setiap langkahnya sederhana namun informatif.</p>
           </div>
         </div>
         <div className="area-right">

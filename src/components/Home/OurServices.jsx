@@ -7,30 +7,30 @@ function OurServicesSection() {
       <div className="layanan">
         <div className="kotak-layanan">
           <h1>Cek Gejala</h1>
-          <p className="p-layanan">Lorem ipsum dolor sit amet consectetur. Sit quam tortor ornare eget et nisl dolor fames tellus.</p>
+          <p className="p-layanan">Mengecek gejala anda dengan memberikan pengetahuan informasi terhadap anemia.</p>
           <Link className="btn-layanan" to={"/faq"}>
-            Pergi
+            Lihat
           </Link>
         </div>
         <div className="kotak-layanan">
           <h1>Artikel</h1>
-          <p className="p-layanan">Lorem ipsum dolor sit amet consectetur. Sit quam tortor ornare eget et nisl dolor fames tellus.</p>
+          <p className="p-layanan">Artikel memberikan pengetahuan maupun sebagai sumber informasi pada penderita anemia</p>
           <Link className="btn-layanan" to={"/articles"}>
-            Pergi
+            Lihat
           </Link>
         </div>
         <div className="kotak-layanan">
           <h1>Aplikasi</h1>
-          <p className="p-layanan">Lorem ipsum dolor sit amet consectetur. Sit quam tortor ornare eget et nisl dolor fames tellus.</p>
+          <p className="p-layanan">Lihat fitur aplikasi mobile kami dan unduh aplikasi mobile yang dapat membantu penyebuhan anemia.</p>
           <Link className="btn-layanan" to={"/application"}>
-            Pergi
+            Lihat
           </Link>
         </div>
         <div className="kotak-layanan">
           <h1>Nutrisi</h1>
-          <p className="p-layanan">Lorem ipsum dolor sit amet consectetur. Sit quam tortor ornare eget et nisl dolor fames tellus.</p>
+          <p className="p-layanan">Penuhi kebutuhan nutrisi anda dengan rekomendasi nutrisi dan pantangan makanan dari kami</p>
           <Link className="btn-layanan" to={"/nutrition"}>
-            Pergi
+            Lihat
           </Link>
         </div>
       </div>

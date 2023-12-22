@@ -1,23 +1,23 @@
 const articlesArrayLimitThree = [
   {
     id: 1,
-    thumbnail: "/articles/1.png",
-    title: "Apakah Anemia Mempengaruhi Kegiatan Sehari - Hari?",
-    desc: "Anemia menyebabkan organ tubuh tidak mendapat cukup oksigen sehingga membuat penderita anemia memiliki kulit yang pucat dan mudah lelah. Anemia juga menimbulkan berbagai macam masalah kesehatan.",
-    postDate: "22 November 2023",
-  },
-  {
-    id: 2,
     thumbnail: "/articles/2.png",
     title: "Apa itu anemia?",
     desc: "Anemia merupakan kondisi medis yang terjadi ketika jumlah sel darah merah dalam tubuh lebih rendah dari jumlah normal.",
     postDate: "22 November 2023",
   },
   {
-    id: 3,
+    id: 2,
     thumbnail: "/articles/3.png",
     title: "Nutrisi untuk anemia",
     desc: "Salah satu sumber makanan yang dapat menambah asupan zat besi di dalam tubuh.",
+    postDate: "22 November 2023",
+  },
+  {
+    id: 3,
+    thumbnail: "/articles/4.png",
+    title: "Cara mencegah anemia",
+    desc: "Jika kamu ingin mencegah anemia, sebaiknya perbanyak konsumsi makanan yang kaya akan zat besi.",
     postDate: "22 November 2023",
   },
 ];
@@ -25,9 +25,9 @@ const articlesArrayLimitThree = [
 const articlesArray = [
   {
     id: 1,
-    thumbnail: "/articles/1.png",
-    title: "Apakah Anemia Mempengaruhi Kegiatan Sehari - Hari?",
-    desc: "Anemia menyebabkan organ tubuh tidak mendapat cukup oksigen sehingga membuat penderita anemia memiliki kulit yang pucat dan mudah lelah. Anemia juga menimbulkan berbagai macam masalah kesehatan.",
+    thumbnail: "/articles/4.png",
+    title: "Cara mencegah anemia",
+    desc: "Jika kamu ingin mencegah anemia, sebaiknya perbanyak konsumsi makanan yang kaya akan zat besi.",
     postDate: "22 November 2023",
   },
   {
@@ -82,6 +82,14 @@ const detailArticle = {
   postDate: "22 November 2023",
   content:
     "<p>Anemia menyebabkan organ tubuh tidak mendapat cukup oksigen sehingga membuat penderita anemia memiliki kulit yang pucat dan mudah lelah.</p><p>Penyakit yang disebabkan oleh rendahnya kadar hemoglobin dalam sel darah merah dapat mengakibatkan tekanan darah rendah, yang pada gilirannya memiliki beberapa dampak yang mempengaruhi kegiatan sehari-hari bagi mereka yang mengalami anemia.</p><p>Anemia juga menimbulkan berbagai macam masalah kesehatan, diantaranya adalah:</p><ul><li>Penurunan imunitas</li><li>Penurunan konsentrasi</li><li>Mengalami penurunan prestasi dalam belajar</li><li>Tidak bugar dan mengalami penurunan produktivitas</li><li>Pada remaja putri, anemia dapat memperbesar resiko kematian saat melahirkan, bayi lahir prematur, dan berat badan bayi yang cenderung rendah.</li></ul>",
+
+  id: 3,
+  thumbnail: "/articles/3.png",
+  title: "Nutrisi untuk Anemia",
+  desc: "Anemia menyebabkan organ tubuh tidak mendapat cukup oksigen sehingga membuat penderita anemia memiliki kulit yang pucat dan mudah lelah. Anemia juga menimbulkan berbagai macam masalah kesehatan.",
+  postDate: "22 November 2023",
+  content:
+    "<p>Di Indonesia diperkirakan sebagian besar anemia terjadi karena kekurangan zat besi sebagai akibat dari kurangnya asupan makanan sumber zat besi khususnya sumber pangan hewani (besi heme).  Zat besi dalam sumber pangan hewani (besi heme) dapat diserap tubuh antara 20-30</p><p>Sumber utama zat besi adalah pangan hewani (besi heme), seperti : </p><ul><li>Hati</li><li>Daging (sapi dan kambing)</li><li>Unggas (ayam, bebek, burung)</li><li>Ikan.</li></ul> <p>Pangan nabati (tumbuh-tumbuhan) juga mengandung zat besi (besi non-heme) namun jumlah zat besi yang bisa diserap oleh usus jauh lebih sedikit dibanding zat besi dari bahan makanan hewani.</p><p>Zat besi non-heme (pangan nabati) yang dapat diserap oleh tubuh adalah 1-10%. Contoh pangan nabati sumber zat besi adalah.Sayuran berwarna hijau tua (bayam, singkong, kangkung)Kelompok kacang-kacangan (tempe, tahu, kacang merah) Untuk meningkatkan penyerapan zat besi dalam usus, sebaiknya mengonsumsi makanan kaya sumber vitamin C seperti : <ul><li>Jeruk <li>Jambu</li> </li></ul>Dan menghindari konsumsi makanan yang banyak mengandung zat yang dapat menghambat penyerapan zat besi dalam usus dalam jangka panjang dan pendek seperti : <ul><li>Tanin (dalam teh hitam, kopi)</li> <li>Kalsium</li> </li> <li>Fosfor</li></li> <li>Fitat (biji-bijian)</li> Sebab Tanin dan fitat mengikat dan menghambat penyerapan besi dari makanan.</p>",
   relatedArticles: [
     {
       id: 2,
@@ -110,57 +118,41 @@ const detailArticle = {
 const forumArray = [
   {
     id: 1,
-    author: "Rimuru Tempest",
+    author: "Novalinda Putri",
     authorProfilePicture: "/profil-forum.svg",
     title: "Apa saja ciri-ciri Anemia pada remaja?",
     thumbnail: "/forum-img.png",
-    postedDate: "22 November 2023",
+    postedDate: "November",
   },
   {
     id: 2,
-    author: "Shuna",
-    authorProfilePicture: "/profil-forum.svg",
+    author: "Febrinaa.nt",
+    authorProfilePicture: "/profile-2.png",
     title: "Bagaimana cara mengatasi kelelahan pada remaja?",
-    thumbnail: "/forum-img.png",
-    postedDate: "23 November 2023",
+    thumbnail: "/forum-2.png",
+    postedDate: "November",
   },
   {
     id: 3,
-    author: "Souei",
-    authorProfilePicture: "/profil-forum.svg",
+    author: "Nella",
+    authorProfilePicture: "/profile-3.png",
     title: "Apa saja tips untuk menjaga kesehatan mental pada remaja?",
-    thumbnail: "/forum-img.png",
-    postedDate: "24 November 2023",
+    thumbnail: "/forum-3.png",
+    postedDate: "November",
   },
   {
     id: 4,
-    author: "Milim Nava",
-    authorProfilePicture: "/profil-forum.svg",
+    author: "aldii",
+    authorProfilePicture: "/profile-4.png",
     title: "Resep makanan sehat untuk meningkatkan energi remaja",
-    thumbnail: "/forum-img.png",
-    postedDate: "25 November 2023",
-  },
-  {
-    id: 5,
-    author: "Benimaru",
-    authorProfilePicture: "/profil-forum.svg",
-    title: "Cara meningkatkan kualitas tidur pada remaja",
-    thumbnail: "/forum-img.png",
-    postedDate: "26 November 2023",
-  },
-  {
-    id: 6,
-    author: "Shion",
-    authorProfilePicture: "/profil-forum.svg",
-    title: "Mengenal lebih jauh tentang pola makan vegetarian",
-    thumbnail: "/forum-img.png",
-    postedDate: "27 November 2023",
+    thumbnail: "/forum-4.png",
+    postedDate: "November",
   },
 ];
 
 const detailForum = {
   id: 1,
-  author: "Rimuru Tempest",
+  author: "Novalinda Putri",
   authorProfilePicture: "/profil-forum.svg",
   title: "Apa saja ciri-ciri Anemia pada remaja?",
   thumbnail: "/forum-img.png",
@@ -170,18 +162,19 @@ const detailForum = {
   comments: [
     {
       id: 1,
-      author: "Ramiris",
-      authorProfilePicture: "/profil-forum.svg",
+      author: "Febrinaa.nt",
+      authorProfilePicture: "/elps.svg",
       postedDate: "23 November 2023",
       like: 2,
-      comment: "Aku juga gatau anjir",
+      comment:
+        "Hallo bu, bantu jawab ya!, Anemia memang merupakan salah satu faktor penyebab seseorang menjadi lemas, pucat, loyo, dan juga pusing. Anemia sendiri terjadi ketika kadar hemoglobin (Hb, zat merah darah) kurang dari normal. Tidak hanya anemia, keluhan seperti yang murid Anda alami bisa pula muncul akibat faktor lain, contohnya dehidrasi, hipotensi, hipoglikemia, kardiomiopati, infeksi, dispepsia, gangguan hormon, gangguan psikis, gangguan hati, kurang tidur, kelelahan beraktifitas, dan sebagainya.",
     },
   ],
   relatedQuestion: [
     {
       id: 2,
       author: "Shuna",
-      authorProfilePicture: "/profil-forum.svg",
+      authorProfilePicture: "/profile-2.png",
       title: "Bagaimana cara mengatasi kelelahan pada remaja?",
       thumbnail: "/forum-img.png",
       postedDate: "23 November 2023",
@@ -189,7 +182,7 @@ const detailForum = {
     {
       id: 3,
       author: "Souei",
-      authorProfilePicture: "/profil-forum.svg",
+      authorProfilePicture: "/profile-3.png",
       title: "Apa saja tips untuk menjaga kesehatan mental pada remaja?",
       thumbnail: "/forum-img.png",
       postedDate: "24 November 2023",
@@ -197,7 +190,7 @@ const detailForum = {
     {
       id: 4,
       author: "Milim Nava",
-      authorProfilePicture: "/profil-forum.svg",
+      authorProfilePicture: "/profile-4.png",
       title: "Resep makanan sehat untuk meningkatkan energi remaja",
       thumbnail: "/forum-img.png",
       postedDate: "25 November 2023",
@@ -208,7 +201,7 @@ const detailForum = {
 const forumQuestion = [
   {
     id: 1,
-    author: "Rimuru Tempest",
+    author: "Novalinda Putri",
     link: "/",
     authorProfilePicture: "/profil-forum.svg",
     title: "Apa saja ciri - ciri anemia pada remaja?",
@@ -219,8 +212,8 @@ const forumQuestion = [
     comments: [
       {
         id: 1,
-        author: "Ramiris",
-        authorProfilePicture: "/profil-forum.svg",
+        author: "Febrinaa.nt",
+        authorProfilePicture: "/feb-img.svg",
         postedDate: "23 November 2023",
         like: 2,
         comment: "Aku juga gatau anjir",
@@ -230,19 +223,19 @@ const forumQuestion = [
       {
         id: 1,
         title: "Bagaimana cara mencegah Anemia?",
-        authorProfilePicture: "/profil-forum.svg",
+        authorProfilePicture: "/pt-1.png",
         link: "/",
       },
       {
         id: 2,
         title: "Bagaimana cara mencegah Anemia?",
-        authorProfilePicture: "/profil-forum.svg",
+        authorProfilePicture: "/pt-2.png",
         link: "/",
       },
       {
         id: 3,
         title: "Bagaimana cara mencegah Anemia?",
-        authorProfilePicture: "/profil-forum.svg",
+        authorProfilePicture: "/pt-3.png",
         link: "/",
       },
     ],
@@ -255,8 +248,7 @@ const forumQuestion = [
     title: "Bagaimana cara mencegah mati kena Anemia ngoding?",
     thumbnail: "/forum-img.png",
     postedDate: "22 November 2023",
-    question:
-      "Jadi saya baru mengetahui tentang anemia setelah tetangga saya mengalami Anemia, apa yang dapat saya lakukan untuk mencegah terjadi nya anemia?",
+    question: "Jadi saya baru mengetahui tentang anemia setelah tetangga saya mengalami Anemia, apa yang dapat saya lakukan untuk mencegah terjadi nya anemia?",
     comments: [
       {
         id: 1,
@@ -270,20 +262,20 @@ const forumQuestion = [
     relatedQuestion: [
       {
         id: 1,
-        title: "Apa saja ciri - ciri anemia pada remaja?",
-        authorProfilePicture: "/profil-forum.svg",
+        title: "Bagaimana cara mencegah Anemia?",
+        authorProfilePicture: "/pt-1.png",
         link: "/",
       },
       {
         id: 2,
-        title: "Apa saja ciri - ciri anemia pada remaja?",
-        authorProfilePicture: "/profil-forum.svg",
+        title: "Bagaimana cara mencegah Anemia?",
+        authorProfilePicture: "/pt-2.png",
         link: "/",
       },
       {
         id: 3,
-        title: "Apa saja ciri - ciri anemia pada remaja?",
-        authorProfilePicture: "/profil-forum.svg",
+        title: "Bagaimana cara mencegah Anemia?",
+        authorProfilePicture: "/pt-3.png",
         link: "/",
       },
     ],
@@ -296,8 +288,7 @@ const forumQuestion = [
     title: "Bagaimana cara mencegah mati kena Anemia ngoding?",
     thumbnail: "/forum-img.png",
     postedDate: "22 November 2023",
-    question:
-      "Jadi saya baru mengetahui tentang anemia setelah tetangga saya mengalami Anemia, apa yang dapat saya lakukan untuk mencegah terjadi nya anemia?",
+    question: "Jadi saya baru mengetahui tentang anemia setelah tetangga saya mengalami Anemia, apa yang dapat saya lakukan untuk mencegah terjadi nya anemia?",
     comments: [
       {
         id: 1,
@@ -311,20 +302,20 @@ const forumQuestion = [
     relatedQuestion: [
       {
         id: 1,
-        title: "Apa saja ciri - ciri anemia pada remaja?",
-        authorProfilePicture: "/profil-forum.svg",
+        title: "Bagaimana cara mencegah Anemia?",
+        authorProfilePicture: "/pt-1.png",
         link: "/",
       },
       {
         id: 2,
-        title: "Apa saja ciri - ciri anemia pada remaja?",
-        authorProfilePicture: "/profil-forum.svg",
+        title: "Bagaimana cara mencegah Anemia?",
+        authorProfilePicture: "/pt-2.png",
         link: "/",
       },
       {
         id: 3,
-        title: "Apa saja ciri - ciri anemia pada remaja?",
-        authorProfilePicture: "/profil-forum.svg",
+        title: "Bagaimana cara mencegah Anemia?",
+        authorProfilePicture: "/pt-3.png",
         link: "/",
       },
     ],
@@ -337,8 +328,7 @@ const forumQuestion = [
     title: "Apa saja ciri - ciri anemia pada remaja?",
     thumbnail: "/forum-img.png",
     postedDate: "22 November 2023",
-    question:
-      "Jadi saya baru mengetahui tentang anemia setelah tetangga saya mengalami Anemia, apa yang dapat saya lakukan untuk mencegah terjadi nya anemia?",
+    question: "Jadi saya baru mengetahui tentang anemia setelah tetangga saya mengalami Anemia, apa yang dapat saya lakukan untuk mencegah terjadi nya anemia?",
     comments: [
       {
         id: 1,
@@ -352,20 +342,20 @@ const forumQuestion = [
     relatedQuestion: [
       {
         id: 1,
-        title: "Apa saja ciri - ciri anemia pada remaja?",
-        authorProfilePicture: "/profil-forum.svg",
+        title: "Bagaimana cara mencegah Anemia?",
+        authorProfilePicture: "/pt-1.png",
         link: "/",
       },
       {
         id: 2,
-        title: "Apa saja ciri - ciri anemia pada remaja?",
-        authorProfilePicture: "/profil-forum.svg",
+        title: "Bagaimana cara mencegah Anemia?",
+        authorProfilePicture: "/pt-2.png",
         link: "/",
       },
       {
         id: 3,
-        title: "Apa saja ciri - ciri anemia pada remaja?",
-        authorProfilePicture: "/profil-forum.svg",
+        title: "Bagaimana cara mencegah Anemia?",
+        authorProfilePicture: "/pt-3.png",
         link: "/",
       },
     ],
@@ -382,14 +372,12 @@ const faqArray = [
   {
     id: 2,
     title: "Diagnosis anemia dibuat",
-    explanation:
-      "Dokter dapat melakukan tes darah untuk memeriksa kadar hemoglobin dan jumlah sel darah merah. Tes tambahan mungkin diperlukan untuk menentukan penyebab anemia.",
+    explanation: "Dokter dapat melakukan tes darah untuk memeriksa kadar hemoglobin dan jumlah sel darah merah. Tes tambahan mungkin diperlukan untuk menentukan penyebab anemia.",
   },
   {
     id: 3,
     title: "Cara mengobati anemia",
-    explanation:
-      "Pengobatan anemia tergantung pada penyebabnya. Ini mungkin melibatkan suplemen zat besi, vitamin B12, atau asam folat, atau perubahan gaya hidup dan diet.",
+    explanation: "Pengobatan anemia tergantung pada penyebabnya. Ini mungkin melibatkan suplemen zat besi, vitamin B12, atau asam folat, atau perubahan gaya hidup dan diet.",
   },
   {
     id: 4,
@@ -406,8 +394,7 @@ const faqArray = [
   {
     id: 6,
     title: "Cara mengatasi kelelahan dan kelemahan",
-    explanation:
-      "Penderita anemia sering mengalami kelelahan. Mengelola kegiatan sehari-hari, tidur cukup, dan menjaga pola makan yang seimbang dapat membantu mengatasi gejala tersebut.",
+    explanation: "Penderita anemia sering mengalami kelelahan. Mengelola kegiatan sehari-hari, tidur cukup, dan menjaga pola makan yang seimbang dapat membantu mengatasi gejala tersebut.",
   },
   {
     id: 7,
@@ -596,15 +583,14 @@ const recomendationArray = [
     desc: "Kurma",
   },
 ];
+const detailrekomendasiArray = [
+  {
+    id: 1,
+    thumbnail: "/recommendation/1.png",
+    title: "Hewani",
+    information:
+      "Kopi  mengandung  lebih  dari  seribu  molekul  zat  yang  berbeda  diantaranya  kafein,  kafestol, kahweol dan asam chlorogenic yang sering dihubungkan dengan metabolisme lipid. Kebiasaan  minum  kopi  sesaat  atau  setelah  mengonsumsi  makanan  dapat  menyebabkan  seseorang terkena penyakit anemia atau kekurangan sel darah merah atau hemoglobin (Hb). Hal itu terjadi karena kandungan tanin di dalam kopi akan menghambat penyerapan zat besi yang dibutuhkan oleh tubuh.",
+  },
+];
 
-export {
-  articlesArrayLimitThree,
-  articlesArray,
-  detailArticle,
-  faqArray,
-  forumArray,
-  detailForum,
-  forumQuestion,
-  recomendationArray,
-  avoidArray,
-};
+export { articlesArrayLimitThree, articlesArray, detailArticle, faqArray, forumArray, detailForum, forumQuestion, recomendationArray, avoidArray, detailrekomendasiArray };

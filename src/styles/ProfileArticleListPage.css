@@ -10,7 +10,9 @@
   font-weight: 500;
   line-height: normal;
 }
-
+.profile-layout {
+  display: flex;
+}
 .saved-article__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
