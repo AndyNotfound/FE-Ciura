@@ -1,13 +1,26 @@
 import '../styles/LoginPage.css'
 import { useForm } from "react-hook-form";
 import Layout from '../components/Layout';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import fetchData from '../helpers/fetch';
+import { useContext } from 'react';
+import { LoginContext } from '../contexts/LoginContext';
 
 function LoginPage() {
+  const navigate = useNavigate();
   const { register, handleSubmit } = useForm();
+  const { setIsLoggedIn } = useContext(LoginContext);
 
-  const submitForm = (data) => {
-    console.log(data)
+  const onSubmitForm = (data) => {
+    fetchData({
+      url: '/api/login',
+      method: 'POST',
+      body: JSON.stringify(data)
+    }).then((res) => {
+      setIsLoggedIn(res.token, res.user);
+      navigate(`/profiles/${res.user.username}`)
+    }
+    )
   }
 
   return (
@@ -21,7 +34,7 @@ function LoginPage() {
         </p>
       </div>
 
-      <form onSubmit={handleSubmit(submitForm)} className="login-form">
+      <form onSubmit={handleSubmit(onSubmitForm)} className="login-form">
         <div className="isi-form">
           <h1 className="masuk">Masuk</h1>
           <button className="form-btn">

@@ -1,10 +1,10 @@
-import { useState } from "react";
 import { NavLink, useNavigate, Link } from "react-router-dom";
+import { useContext } from "react";
+import { LoginContext } from "../contexts/LoginContext";
 
 function Navbar() {
+  const { isLoggedIn } = useContext(LoginContext);
   const navigate = useNavigate();
-  // MOCKING USER LOGGED IN STATE
-  const [login, setLogin] = useState(true);
   return (
     <nav>
       <div className="navbar">
@@ -39,7 +39,7 @@ function Navbar() {
           </li>
         </ul>
         <div className="button-navbar">
-          {login ? (
+          {isLoggedIn ? (
             <Link to={"/profiles/test"}>
               <img src="/profil-img.svg" alt="" />
             </Link>

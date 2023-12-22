@@ -1,18 +1,23 @@
-import { NavLink, useParams } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FaArrowRight, FaBookOpen, FaComments, FaQuestionCircle, FaUser } from "react-icons/fa";
+import { LoginContext } from "../contexts/LoginContext";
+import { useContext } from "react";
 
 function SideMenu() {
-  const { username } = useParams();
+  const { setAccessToken, user } = useContext(LoginContext)
+  const onLogoutHandler = () => {
+    setAccessToken(null)
+  };
   return (
     <div className="menu-section">
       <div className=" menu-user">
         <img className="img-menu-user" src="/profil-img.svg" alt="inactive" />
-        <p>{username}</p>
+        <p>{user?.username}</p>
       </div>
       <ul className="menu-item">
         <li>
           <NavLink
-            to={`/profiles/${username}`}
+            to={`/profiles/${user?.username}`}
             className={
               ({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "inactive")
             }
@@ -23,7 +28,7 @@ function SideMenu() {
         </li>
         <li>
           <NavLink
-            to={`/profiles/${username}/articles`}
+            to={`/profiles/${user?.username}/articles`}
 
             className={
               ({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "inactive")
@@ -35,7 +40,7 @@ function SideMenu() {
         </li>
         <li>
           <NavLink
-            to={`/profiles/${username}/forums`}
+            to={`/profiles/${user?.username}/forums`}
             className={
               ({ isActive, isPending }) => (isPending ? "pending" : isActive ? "active" : "inactive")
             }
@@ -56,7 +61,7 @@ function SideMenu() {
           </NavLink>
         </li>
         <li>
-          <button className="sidemenu-logout">
+          <button onClick={onLogoutHandler} className="sidemenu-logout">
             <FaArrowRight className="fa-brands" />
             Keluar
           </button>
