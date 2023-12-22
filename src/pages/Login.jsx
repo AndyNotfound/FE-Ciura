@@ -18,7 +18,7 @@ function LoginPage() {
       body: JSON.stringify(data)
     }).then((res) => {
       setIsLoggedIn(res.token, res.user);
-      navigate(`/profiles/${res.user.username}`)
+      navigate(`/profiles/novalindaputri`)
     }
     )
   }

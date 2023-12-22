@@ -9,6 +9,7 @@ const LoginContext = React.createContext({
   setAccessToken: () => { }, // Function to update access token
 });
 
+// eslint-disable-next-line react/prop-types
 const LoginProvider = ({ children }) => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [user, setUser] = useState(null)

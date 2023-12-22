@@ -1,12 +1,14 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { FaArrowRight, FaBookOpen, FaComments, FaQuestionCircle, FaUser } from "react-icons/fa";
 import { LoginContext } from "../contexts/LoginContext";
 import { useContext } from "react";
 
 function SideMenu() {
-  const { setAccessToken, user } = useContext(LoginContext)
+  const { setAccessToken } = useContext(LoginContext)
+  const navigate = useNavigate();
   const onLogoutHandler = () => {
     setAccessToken(null)
+    navigate('/');
   };
   return (
     <div className="menu-section">

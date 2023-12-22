@@ -40,7 +40,7 @@ function Navbar() {
         </ul>
         <div className="button-navbar">
           {isLoggedIn ? (
-            <Link to={"/profiles/test"}>
+            <Link to={"/profiles/novalindaputri"}>
               <img src="/profil-img.svg" alt="" />
             </Link>
           ) : (
