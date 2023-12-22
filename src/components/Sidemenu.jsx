@@ -1,8 +1,13 @@
-import { NavLink, useParams } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FaArrowRight, FaBookOpen, FaComments, FaQuestionCircle, FaUser } from "react-icons/fa";
+import { LoginContext } from "../contexts/LoginContext";
+import { useContext } from "react";
 
 function SideMenu() {
-  const { username } = useParams();
+  const { setAccessToken, user } = useContext(LoginContext)
+  const onLogoutHandler = () => {
+    setAccessToken(null)
+  };
   return (
     <div className="menu-section">
       <div className=" menu-user">
@@ -35,7 +40,7 @@ function SideMenu() {
           </NavLink>
         </li>
         <li>
-          <button className="sidemenu-logout">
+          <button onClick={onLogoutHandler} className="sidemenu-logout">
             <FaArrowRight className="fa-brands" />
             Keluar
           </button>
