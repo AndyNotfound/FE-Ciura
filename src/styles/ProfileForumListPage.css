@@ -42,6 +42,7 @@
   flex-direction: column;
   align-items: end;
   justify-content: center;
+  width: 200px;
 }
 
 .saved-forum-card__post-info > p {

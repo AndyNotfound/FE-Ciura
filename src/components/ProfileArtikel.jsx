@@ -2,12 +2,11 @@ import ArticleCard from "./ArticleCard";
 
 const articlesArray = [
   {
-    id: 1,
-    thumbnail: "/artikel-img.png",
-    title: "Apa itu anemia?",
-    desc: "Anemia merupakan kondisi medis yang terjadi ketika jumlah sel darah merah dalam tubuh lebih rendah dari jumlah normal.",
+    id: 3,
+    thumbnail: "/articles/3.png",
+    title: "Nutrisi untuk anemia",
+    desc: "Salah satu sumber makanan yang dapat menambah asupan zat besi di dalam tubuh.",
     postDate: "22 November 2023",
-    link: "#",
   },
   {
     id: 2,

@@ -15,12 +15,12 @@ function CreateForum() {
               <label className="label-topik" for="">
                 Topik
               </label>
-              <input className="input-topik" type="text" />
+              <input type="text" value={inputValue} onChange={handleInputChange} placeholder="Tulis di sini..." />
               <input className="input-topik" type="text" />
             </div>
             <div>
               <label className="upload-img" for="upload-img">
-                Tambah Foto <i className="fa-solid fa-plus"></i>
+                Tambah Foto
               </label>
               <input id="upload-img" type="file" />
             </div>

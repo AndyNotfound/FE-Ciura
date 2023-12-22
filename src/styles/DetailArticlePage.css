@@ -157,6 +157,9 @@ h2 {
   display: flex;
   margin-top: 1px;
 }
+.p-Artikel {
+  height: 110px;
+}
 .ket-cardnutrition {
   display: flex;
   margin-top: 10px;
